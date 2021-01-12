@@ -113,28 +113,28 @@ sau
 - cd ~\
 Pentru a intra in folder-ul .ssh dati:
 - cd .ssh
-- ls # pentru a vedea continutul, aici ar trebui sa aveti 3 fisiere\
+- ls # pentru a vedea continutul, aici ar trebui sa aveti fisierele id_rsa si id_rsa.pub\
 Fisierul id_rsa contine cheia voastra privata(niciodata sa nu o dati la nimeni) si fisierul id_rsa.pub contine cheia publica pe care o puteti da oricui.
 - cat id_rsa.pub # ca sa va afiseze continutul fisierului
 - copiati intreg continutul fisierului id_rsa.pub
 - intrati pe site-ul github, va logati si urmariti pasii de mai jos
 
-<b>Intrati la setari in colt dreapta sus</b><br>
+<p><b>Intrati la setari in colt dreapta sus</b></p>
 
 <p align="center">
   <img src="https://github.com/Laborator-POO-2020-2021/Laborator-11/blob/master/Screenshot_4.png" />
 </p>
-<b>Selectati SSH and GPG keys</b><br>
+<p><b>Selectati SSH and GPG keys</b></p>
 
 <p align="center">
   <img src="https://github.com/Laborator-POO-2020-2021/Laborator-11/blob/master/Screenshot_5.png" />
 </p>
-<b>Selectati New SSH key</b><br>
+<p><b>Selectati New SSH key</b></p>
 
 <p align="center">
   <img src="https://github.com/Laborator-POO-2020-2021/Laborator-11/blob/master/Screenshot_7.png" />
 </p>
-<b>Introduceti datele din fisierul id_rsa.pub si un titlu</b><br>
+<p><b>Introduceti datele din fisierul id_rsa.pub si un titlu</b></p>
 
 <p align="center">
   <img src="https://github.com/Laborator-POO-2020-2021/Laborator-11/blob/master/Screenshot_6.png" />
