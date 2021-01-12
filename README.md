@@ -5,7 +5,7 @@ Exercitiile se realizeaza astfel incat sa existe un fisier header si un fisier c
 
 
 class Localitate {\
-    char *nume;\
+\t char *nume;\
     int nr_locuitori;\
 int venit_mediu;\
 };\
@@ -17,6 +17,7 @@ class Oras{\
 class Minicipiu{\
     char * regiune;\
 };\
+\
 class Capitala{\
     char *tara;\
 };\
