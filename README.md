@@ -5,25 +5,25 @@ Exercitiile se realizeaza astfel incat sa existe un fisier header si un fisier c
 
 
 class Localitate {\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char *nume;\
-    int nr_locuitori;\
-int venit_mediu;\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char *nume;\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int nr_locuitori;\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int venit_mediu;\
 };\
 \
 class Oras{\
-    int bonus_venit; //venitul unui oras este venitul localitatii + bonus_venit.\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int bonus_venit; //venitul unui oras este venitul localitatii + bonus_venit.\
 };\
 \
 class Minicipiu{\
-    char * regiune;\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char * regiune;\
 };\
 \
 class Capitala{\
-    char *tara;\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char *tara;\
 };\
 \
 class Tara{\
-    Localitate **v;\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Localitate **v;\
 };\
 \
 
