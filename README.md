@@ -37,17 +37,17 @@ Cerinte:
 
     
 
-## Tutorial github
+# Tutorial github
 
-Pentru descarcare pe windows:
-https://git-scm.com/downloads
+ - Pentru descarcare pe windows:
+   - https://git-scm.com/downloads
 
-Dupa instalare deschideti programul Git bash
+   - Dupa instalare deschideti programul Git bash
 
-Pentru descarcare pe linux in terminal:
-sudo apt install git
+ - Pentru descarcare pe linux in terminal:
+   - sudo apt install git
 
-Comenzi de baza:
+## Comenzi de baza:
 In continuare comenzile pentru linux(terminal) si windows(git bash) sunt comune.
 ls -> pentru a vedea toate fisierele si folderele din locatia curenta
 pwd -> pentru a vedea calea absoluta din locatia curenta
@@ -55,12 +55,12 @@ touch exemplu.txt -> creare fisier exemplu.txt(inlocuiti exemplu.txt cu fisierul
 mkdir exemplu -> creare folder cu numele exemplu
 cd exemplu -> pentru a schimba locatia curenta si a intra in folder-ul exemplu
 
-Pasul 1 -> stabiliti locatia unde o sa lucrati
+## Pasul 1 -> stabiliti locatia unde o sa lucrati
 1.1 Stabiliti locatia unde doriti sa lucrati(Desktop, Documents sau orice alt folder)
 1.2 creati un folder in aceasta locatie cu ce nume vreti voi (mkdir si apoi cd in el)
 1.3 verificati ca va aflati in interiorul folder-ului (pwd)
 
-Pasul 2 poate fi facut in 2 moduri -> initializarea/clonarea proiectului la voi local
+## Pasul 2 poate fi facut in 2 moduri -> initializarea/clonarea proiectului la voi local
 Varianta 1
 2.1 git init
 2.2 git remote add origin https://github.com/Laborator-POO-2020-2021/Laborator-11.git
@@ -68,7 +68,7 @@ Varianta 1
 Varianta 2
 2.1 git clone https://github.com/Laborator-POO-2020-2021/Laborator-11.git
 
-Pasul 3 -> crearea propriului branch
+## Pasul 3 -> crearea propriului branch
 3.1 cd Laborator-11
 3.2 git checkout -b prenume.nume # aici fiecare isi creeaza un branch cu numele lui folosind argumentul -b
 3.3 git branch # cu aceasta comanda puteti observa pe ce branch va aflati
@@ -76,7 +76,7 @@ Pasul 3 -> crearea propriului branch
 3.5 git branch
 3.6 git checkout prenume.nume # sa va intoarceti pe branch-ul vostru !!!!
 
-Pasul 4 -> crearea unui fisier si urcarea acestuia pe website-ul github in repository-ul pentru laboratorul 11
+## Pasul 4 -> crearea unui fisier si urcarea acestuia pe website-ul github in repository-ul pentru laboratorul 11
 4.1 touch main.cpp
 4.2 touch header.hpp
 4.3 touch file.cpp
