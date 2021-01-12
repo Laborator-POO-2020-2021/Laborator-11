@@ -107,7 +107,7 @@ Din browser puteti vedea modificarile voastre selectand branch-ul vostru, ca in 
 
 Rulati comanda:
 - ssh-keygen\
-Apoi in folder .ssh din folder-ul principal al userului vostru (/home/marius.trifu/ pt linux) si C:\Users\marius.trifu sau /c/Users/marius.trifu pentru Windows.
+Apoi in folder-ul .ssh din folder-ul principal al userului vostru (/home/marius.trifu/ pt linux) si C:\Users\marius.trifu sau /c/Users/marius.trifu pentru Windows.
 - cd\
 sau
 - cd ~\
