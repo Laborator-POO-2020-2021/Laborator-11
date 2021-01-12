@@ -100,14 +100,14 @@ Din browser puteti vedea modificarile voastre selectand branch-ul vostru, ca in 
 **Cum sa adaugati cheia de ssh**
 
 Rulati comanda:
-- ssh-keygen
+- ssh-keygen\
 Apoi in folder .ssh din folder-ul principal al userului vostru (/home/marius.trifu/ pt linux) si C:\Users\marius.trifu sau /c/Users/marius.trifu pentru Windows.
-- cd
+- cd\
 sau
-- cd ~
+- cd ~\
 Pentru a intra in folder-ul .ssh dati:
 - cd .ssh
-- ls # pentru a vedea continutul, aici ar trebui sa aveti 3 fisiere
+- ls # pentru a vedea continutul, aici ar trebui sa aveti 3 fisiere\
 Fisierul id_rsa contine cheia voastra privata(niciodata sa nu o dati la nimeni) si fisierul id_rsa.pub contine cheia publica pe care o puteti da oricui.
 - cat id_rsa.pub # ca sa va afiseze continutul fisierului
 - copiati intreg continutul fisierului id_rsa.pub
