@@ -37,7 +37,7 @@ Cerinte:
 
     
 
-##**Tutorial github**
+## Tutorial github
 
 Pentru descarcare pe windows:
 https://git-scm.com/downloads
