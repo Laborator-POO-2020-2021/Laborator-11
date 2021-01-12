@@ -67,9 +67,9 @@ Varianta 1
 
 Varianta 2
 - git clone https://github.com/Laborator-POO-2020-2021/Laborator-11.git
+- cd Laborator-11
 
 ## Pasul 3 -> crearea propriului branch
-- cd Laborator-11
 - git checkout -b prenume.nume # aici fiecare isi creeaza un branch cu numele lui folosind argumentul -b
 - git branch # cu aceasta comanda puteti observa pe ce branch va aflati
 - git checkout master # va duceti inapoi pe branch-ul de master
