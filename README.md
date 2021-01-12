@@ -1,6 +1,6 @@
 # **Laborator 11**
 
-**Problemele se incarca pe Github pana duminica– 17.01.2021 ora 23:59.
+**Problemele se incarca pe Github pana duminica– 17.01.2021 ora 23:59.\
 Exercitiile se realizeaza astfel incat sa existe un fisier header si un fisier cpp pentru fiecare clasa si un fisier separat pentru main**
 
 
