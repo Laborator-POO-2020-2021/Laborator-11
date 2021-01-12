@@ -24,7 +24,7 @@ class Capitala{\
 \
 class Tara{\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Localitate **v;\
-};\
+};
 
 
 Cerinte:
