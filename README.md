@@ -69,22 +69,22 @@ Varianta 2
 - git clone https://github.com/Laborator-POO-2020-2021/Laborator-11.git
 
 ## Pasul 3 -> crearea propriului branch
-3.1 cd Laborator-11
-3.2 git checkout -b prenume.nume # aici fiecare isi creeaza un branch cu numele lui folosind argumentul -b
-3.3 git branch # cu aceasta comanda puteti observa pe ce branch va aflati
-3.4 git checkout master # va duceti inapoi pe branch-ul de master
-3.5 git branch
-3.6 git checkout prenume.nume # sa va intoarceti pe branch-ul vostru !!!!
+- cd Laborator-11
+- git checkout -b prenume.nume # aici fiecare isi creeaza un branch cu numele lui folosind argumentul -b
+- git branch # cu aceasta comanda puteti observa pe ce branch va aflati
+- git checkout master # va duceti inapoi pe branch-ul de master
+- git branch
+- git checkout prenume.nume # sa va intoarceti pe branch-ul vostru !!!!
 
 ## Pasul 4 -> crearea unui fisier si urcarea acestuia pe website-ul github in repository-ul pentru laboratorul 11
-4.1 touch main.cpp
-4.2 touch header.hpp
-4.3 touch file.cpp
-4.4 git status # pentru a observa modificarile
-4.5.1 git add . # .(punct) inseamna ca adaugati toate modificarile
-4.5.2 git add main.cpp # sau varianta aceasta in care adaugati fiecare fisier modificat pe rand
-4.6 git commit -m “un mesaj scurt cu ce ati modificat”
-4.7 git push # cu aceasta comanda trimiteti modificarile pe server-ul github si pot fi vizualizate apoi si din brower
+- touch main.cpp
+- touch header.hpp
+- touch file.cpp
+- git status # pentru a observa modificarile
+  - git add . # .(punct) inseamna ca adaugati toate modificarile
+  - git add main.cpp # sau varianta aceasta in care adaugati fiecare fisier modificat pe rand
+- git commit -m “un mesaj scurt cu ce ati modificat”
+- git push # cu aceasta comanda trimiteti modificarile pe server-ul github si pot fi vizualizate apoi si din brower
 
 Pasul 4 se repeta de cate ori e nevoie, adica de fiecare data cand vreti sa trimiteti modificarile pe care le faceti pe server.
 Nu e nevoie sa faceti asta la fiecare modificare, puteti faci pasul 4 o singura data dupa ce ati terminat laboratorul.
