@@ -43,7 +43,7 @@ Cerinte:
    - https://git-scm.com/downloads
 
    - Dupa instalare deschideti programul Git bash
-
+![alt text](https://github.com/Laborator-POO-2020-2021/Laborator-11/blob/master/Screenshot_2.png)
  - Pentru descarcare pe linux in terminal:
    - sudo apt install git
 
