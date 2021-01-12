@@ -26,12 +26,11 @@ class Tara{
 
 
 Cerinte:
-
-Implementati toate metodele astfel incat programul sa functioneze corect
-Creati in main 5 obiecte de tip Tara. Cel putin una din tari sa aiba o localitate, un oras, un municipiu si o capitala.
-Sortati tarile dupa numarul de locuitori si afisati-le.
-Sortati tarile dupa venitul mediu.
-Afisatati detaliile despre fiecare tara.
+- Implementati toate metodele astfel incat programul sa functioneze corect
+- Creati in main 5 obiecte de tip Tara. Cel putin una din tari sa aiba o localitate, un oras, un municipiu si o capitala.
+- Sortati tarile dupa numarul de locuitori si afisati-le.
+- Sortati tarile dupa venitul mediu.
+- Afisatati detaliile despre fiecare tara.
 
 
     
