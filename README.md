@@ -1,4 +1,4 @@
-**Laborator 11**
+# **Laborator 11**
 
 **Problemele se incarca pe Github pana duminica– 17.01.2021 ora 23:59.
 Exercitiile se realizeaza astfel incat sa existe un fisier header si un fisier cpp pentru fiecare clasa si un fisier separat pentru main**
@@ -25,7 +25,7 @@ class Capitala{\
 class Tara{\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Localitate **v;\
 };\
-\
+
 
 Cerinte:
 - Implementati toate metodele astfel incat programul sa functioneze corect
@@ -37,7 +37,7 @@ Cerinte:
 
     
 
-**Tutorial github**
+##**Tutorial github**
 
 Pentru descarcare pe windows:
 https://git-scm.com/downloads
