@@ -45,7 +45,9 @@ Cerinte:
    - https://git-scm.com/downloads
 
    - Dupa instalare deschideti programul Git bash
-![alt text](https://github.com/Laborator-POO-2020-2021/Laborator-11/blob/master/Screenshot_1.png)
+<p align="center">
+  <img src="https://github.com/Laborator-POO-2020-2021/Laborator-11/blob/master/Screenshot_1.png" />
+</p>
  - Pentru descarcare pe linux in terminal:
    - sudo apt install git
 
@@ -95,7 +97,9 @@ Pasul 4 se repeta de cate ori e nevoie, adica de fiecare data cand vreti sa trim
 Nu e nevoie sa faceti asta la fiecare modificare, puteti faci pasul 4 o singura data dupa ce ati terminat laboratorul.
 
 Din browser puteti vedea modificarile voastre selectand branch-ul vostru, ca in imaginea de mai jos.
-![alt text](https://github.com/Laborator-POO-2020-2021/Laborator-11/blob/master/Screenshot_2.png)
+<p align="center">
+  <img src="https://github.com/Laborator-POO-2020-2021/Laborator-11/blob/master/Screenshot_2.png" />
+</p>
 
 ## Extra
 
@@ -113,3 +117,13 @@ Pentru a intra in folder-ul .ssh dati:
 Fisierul id_rsa contine cheia voastra privata(niciodata sa nu o dati la nimeni) si fisierul id_rsa.pub contine cheia publica pe care o puteti da oricui.
 - cat id_rsa.pub # ca sa va afiseze continutul fisierului
 - copiati intreg continutul fisierului id_rsa.pub
+- intrati pe site-ul github, va logati si urmariti pasii de mai jos
+<p align="center">
+  <img src="https://github.com/Laborator-POO-2020-2021/Laborator-11/blob/master/Screenshot_4.png" />
+</p>
+<p align="center">
+  <img src="https://github.com/Laborator-POO-2020-2021/Laborator-11/blob/master/Screenshot_5.png" />
+</p>
+<p align="center">
+  <img src="https://github.com/Laborator-POO-2020-2021/Laborator-11/blob/master/Screenshot_6.png" />
+</p>
