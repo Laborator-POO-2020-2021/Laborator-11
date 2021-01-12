@@ -48,7 +48,7 @@ Cerinte:
    - sudo apt install git
 
 ## Comenzi de baza:
-In continuare comenzile pentru linux(terminal) si windows(git bash) sunt comune.\
+In continuare comenzile pentru linux(terminal) si windows(git bash) sunt comune.
 - ls -> pentru a vedea toate fisierele si folderele din locatia curenta
 - pwd -> pentru a vedea calea absoluta din locatia curenta
 - touch exemplu.txt -> creare fisier exemplu.txt(inlocuiti exemplu.txt cu fisierul pe care doriti sa il creati)
