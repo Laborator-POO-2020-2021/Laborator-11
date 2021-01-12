@@ -86,7 +86,7 @@ Varianta 2
 - **Varianta 2**
     - git add main.cpp # sau varianta aceasta in care adaugati fiecare fisier modificat pe rand
 - git commit -m “un mesaj scurt cu ce ati modificat”
-- git push # cu aceasta comanda trimiteti modificarile pe server-ul github si pot fi vizualizate apoi si din brower
+- git push origin nume.prenume # cu aceasta comanda trimiteti modificarile pe branch-ul vostru de pe server-ul github, pot fi vizualizate apoi si din brower
 
 Pasul 4 se repeta de cate ori e nevoie, adica de fiecare data cand vreti sa trimiteti modificarile pe care le faceti pe server.
 Nu e nevoie sa faceti asta la fiecare modificare, puteti faci pasul 4 o singura data dupa ce ati terminat laboratorul.
