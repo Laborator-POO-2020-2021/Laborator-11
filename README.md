@@ -43,7 +43,7 @@ Cerinte:
    - https://git-scm.com/downloads
 
    - Dupa instalare deschideti programul Git bash
-![alt text](https://github.com/Laborator-POO-2020-2021/Laborator-11/blob/master/Screenshot_2.png)
+![alt text](https://github.com/Laborator-POO-2020-2021/Laborator-11/blob/master/Screenshot_1.png)
  - Pentru descarcare pe linux in terminal:
    - sudo apt install git
 
@@ -90,4 +90,4 @@ Pasul 4 se repeta de cate ori e nevoie, adica de fiecare data cand vreti sa trim
 Nu e nevoie sa faceti asta la fiecare modificare, puteti faci pasul 4 o singura data dupa ce ati terminat laboratorul.
 
 Din browser puteti vedea modificarile voastre selectand branch-ul vostru, ca in imaginea de mai jos.
-
+![alt text](https://github.com/Laborator-POO-2020-2021/Laborator-11/blob/master/Screenshot_2.png)
