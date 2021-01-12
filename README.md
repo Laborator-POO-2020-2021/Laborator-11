@@ -9,7 +9,7 @@ class Localitate {\
     int nr_locuitori;\
 int venit_mediu;\
 };\
-\
+\ 
 class Oras{\
     int bonus_venit; //venitul unui oras este venitul localitatii + bonus_venit.\
 };\
