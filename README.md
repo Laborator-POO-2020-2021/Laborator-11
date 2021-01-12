@@ -81,9 +81,9 @@ Varianta 2
 - touch header.hpp
 - touch file.cpp
 - git status # pentru a observa modificarile
-**Varianta 1**\
+**Varianta 1** \
 - git add . # .(punct) inseamna ca adaugati toate modificarile
-**Varianta 2**\
+**Varianta 2** \
 - git add main.cpp # sau varianta aceasta in care adaugati fiecare fisier modificat pe rand
 - git commit -m “un mesaj scurt cu ce ati modificat”
 - git push # cu aceasta comanda trimiteti modificarile pe server-ul github si pot fi vizualizate apoi si din brower
