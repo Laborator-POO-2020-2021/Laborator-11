@@ -4,26 +4,27 @@
 Exercitiile se realizeaza astfel incat sa existe un fisier header si un fisier cpp pentru fiecare clasa si un fisier separat pentru main**
 
 
-class Localitate {
-    char *nume;
-    int nr_locuitori;
-int venit_mediu;
-};
-
-class Oras{
-    int bonus_venit; //venitul unui oras este venitul localitatii + bonus_venit.
-};
-class Minicipiu{
-    char * regiune;
-};
-class Capitala{
-    char *tara;
-};
-
-class Tara{
-    Localitate **v;
-};
-
+class Localitate {\
+    char *nume;\
+    int nr_locuitori;\
+int venit_mediu;\
+};\
+\
+class Oras{\
+    int bonus_venit; //venitul unui oras este venitul localitatii + bonus_venit.\
+};\
+\
+class Minicipiu{\
+    char * regiune;\
+};\
+class Capitala{\
+    char *tara;\
+};\
+\
+class Tara{\
+    Localitate **v;\
+};\
+\
 
 Cerinte:
 - Implementati toate metodele astfel incat programul sa functioneze corect
