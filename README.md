@@ -23,7 +23,7 @@ class Capitala{\
 };\
 \
 class Tara{\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Localitate **v;\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Localitate **v; #hint:pentru a parcurge vectorul puneti pe ultima pozitie NULL si parcurgeti vectorul pana dati de NULL.\
 };\
 <p align="center">
   <img src="https://github.com/Laborator-POO-2020-2021/Laborator-11/blob/master/Screenshot_3.png" />
