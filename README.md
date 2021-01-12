@@ -119,19 +119,23 @@ Fisierul id_rsa contine cheia voastra privata(niciodata sa nu o dati la nimeni) 
 - copiati intreg continutul fisierului id_rsa.pub
 - intrati pe site-ul github, va logati si urmariti pasii de mai jos
 
-**Intrati la setari**
+** Intrati la setari**
+\
 <p align="center">
   <img src="https://github.com/Laborator-POO-2020-2021/Laborator-11/blob/master/Screenshot_4.png" />
 </p>
-**Selectati SSH & GPG keys**
+** Selectati SSH & GPG keys**
+\
 <p align="center">
   <img src="https://github.com/Laborator-POO-2020-2021/Laborator-11/blob/master/Screenshot_5.png" />
 </p>
-**Add SSH key**
+** Add SSH key**
+\
 <p align="center">
   <img src="https://github.com/Laborator-POO-2020-2021/Laborator-11/blob/master/Screenshot_7.png" />
 </p>
-**Introduceti datele din fisierul id_rsa.pub si un titlu**
+** Introduceti datele din fisierul id_rsa.pub si un titlu**
+\
 <p align="center">
   <img src="https://github.com/Laborator-POO-2020-2021/Laborator-11/blob/master/Screenshot_6.png" />
 </p>
