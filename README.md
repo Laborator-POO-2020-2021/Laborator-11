@@ -24,7 +24,7 @@ class Capitala{\
 \
 class Tara{\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Localitate **v;\
-};
+};\
 ![alt text](https://github.com/Laborator-POO-2020-2021/Laborator-11/blob/master/Screenshot_3.png)
 
 Cerinte:
