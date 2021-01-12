@@ -94,3 +94,20 @@ Nu e nevoie sa faceti asta la fiecare modificare, puteti faci pasul 4 o singura 
 
 Din browser puteti vedea modificarile voastre selectand branch-ul vostru, ca in imaginea de mai jos.
 ![alt text](https://github.com/Laborator-POO-2020-2021/Laborator-11/blob/master/Screenshot_2.png)
+
+## Extra
+
+**Cum sa adaugati cheia de ssh**
+
+Rulati comanda:
+- ssh-keygen
+Apoi in folder .ssh din folder-ul principal al userului vostru (/home/marius.trifu/ pt linux) si C:\Users\marius.trifu sau /c/Users/marius.trifu pentru Windows.
+- cd
+sau
+- cd ~
+Pentru a intra in folder-ul .ssh dati:
+- cd .ssh
+- ls # pentru a vedea continutul, aici ar trebui sa aveti 3 fisiere
+Fisierul id_rsa contine cheia voastra privata(niciodata sa nu o dati la nimeni) si fisierul id_rsa.pub contine cheia publica pe care o puteti da oricui.
+- cat id_rsa.pub # ca sa va afiseze continutul fisierului
+- copiati intreg continutul fisierului id_rsa.pub
