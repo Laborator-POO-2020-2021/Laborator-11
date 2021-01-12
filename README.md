@@ -48,25 +48,25 @@ Cerinte:
    - sudo apt install git
 
 ## Comenzi de baza:
-In continuare comenzile pentru linux(terminal) si windows(git bash) sunt comune.
-ls -> pentru a vedea toate fisierele si folderele din locatia curenta
-pwd -> pentru a vedea calea absoluta din locatia curenta
-touch exemplu.txt -> creare fisier exemplu.txt(inlocuiti exemplu.txt cu fisierul pe care doriti sa il creati)
-mkdir exemplu -> creare folder cu numele exemplu
-cd exemplu -> pentru a schimba locatia curenta si a intra in folder-ul exemplu
+In continuare comenzile pentru linux(terminal) si windows(git bash) sunt comune.\
+- ls -> pentru a vedea toate fisierele si folderele din locatia curenta
+- pwd -> pentru a vedea calea absoluta din locatia curenta
+- touch exemplu.txt -> creare fisier exemplu.txt(inlocuiti exemplu.txt cu fisierul pe care doriti sa il creati)
+- mkdir exemplu -> creare folder cu numele exemplu
+- cd exemplu -> pentru a schimba locatia curenta si a intra in folder-ul exemplu
 
 ## Pasul 1 -> stabiliti locatia unde o sa lucrati
-1.1 Stabiliti locatia unde doriti sa lucrati(Desktop, Documents sau orice alt folder)
-1.2 creati un folder in aceasta locatie cu ce nume vreti voi (mkdir si apoi cd in el)
-1.3 verificati ca va aflati in interiorul folder-ului (pwd)
+- Stabiliti locatia unde doriti sa lucrati(Desktop, Documents sau orice alt folder)
+- creati un folder in aceasta locatie cu ce nume vreti voi (mkdir si apoi cd in el)
+- verificati ca va aflati in interiorul folder-ului (pwd)
 
 ## Pasul 2 poate fi facut in 2 moduri -> initializarea/clonarea proiectului la voi local
 Varianta 1
-2.1 git init
-2.2 git remote add origin https://github.com/Laborator-POO-2020-2021/Laborator-11.git
+- git init
+- git remote add origin https://github.com/Laborator-POO-2020-2021/Laborator-11.git
 
 Varianta 2
-2.1 git clone https://github.com/Laborator-POO-2020-2021/Laborator-11.git
+- git clone https://github.com/Laborator-POO-2020-2021/Laborator-11.git
 
 ## Pasul 3 -> crearea propriului branch
 3.1 cd Laborator-11
