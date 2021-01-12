@@ -64,6 +64,7 @@ In continuare comenzile pentru linux(terminal) si windows(git bash) sunt comune.
 Varianta 1
 - git init
 - git remote add origin https://github.com/Laborator-POO-2020-2021/Laborator-11.git
+- git pull origin master
 
 Varianta 2
 - git clone https://github.com/Laborator-POO-2020-2021/Laborator-11.git
