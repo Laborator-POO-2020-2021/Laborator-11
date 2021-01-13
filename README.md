@@ -48,8 +48,9 @@ Cerinte:
 <p align="center">
   <img src="https://github.com/Laborator-POO-2020-2021/Laborator-11/blob/master/Screenshot_1.png" />
 </p>
-- Pentru descarcare pe linux in terminal:
-  - sudo apt install git
+
+ - Pentru descarcare pe linux in terminal:
+   - sudo apt install git
 
 ## Comenzi de baza:
 In continuare comenzile pentru linux(terminal) si windows(git bash) sunt comune.
