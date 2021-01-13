@@ -24,7 +24,7 @@ class Capitala{\
 \
 class Tara{\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Localitate **v; #hint:pentru a parcurge vectorul puneti pe ultima pozitie NULL si parcurgeti vectorul pana dati de NULL.\
-};\
+};
 <p align="center">
   <img src="https://github.com/Laborator-POO-2020-2021/Laborator-11/blob/master/Screenshot_3.png" />
 </p>
@@ -65,14 +65,14 @@ In continuare comenzile pentru linux(terminal) si windows(git bash) sunt comune.
 - verificati ca va aflati in interiorul folder-ului (pwd)
 
 ## Pasul 2 poate fi facut in 2 moduri -> initializarea/clonarea proiectului la voi local
-Varianta 1
-- git init
-- git remote add origin https://github.com/Laborator-POO-2020-2021/Laborator-11.git
-- git pull origin master
+- Varianta 1
+  - git init
+  - git remote add origin https://github.com/Laborator-POO-2020-2021/Laborator-11.git
+  - git pull origin master
 
-Varianta 2
-- git clone https://github.com/Laborator-POO-2020-2021/Laborator-11.git
-- cd Laborator-11
+- Varianta 2
+  - git clone https://github.com/Laborator-POO-2020-2021/Laborator-11.git
+  - cd Laborator-11
 
 ## Pasul 3 -> crearea propriului branch
 - git checkout -b prenume.nume # aici fiecare isi creeaza un branch cu numele lui folosind argumentul -b
