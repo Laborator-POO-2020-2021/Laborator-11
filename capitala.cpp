@@ -28,6 +28,16 @@ ostream& operator << (ostream &out, Capitala &obj)
     return out;
 }
 
+double Capitala::Get_Population ()
+{
+    return Localitate::Get_Population ();
+}
+
+double Capitala::Get_Venit ()
+{
+    return Oras::Get_Venit ();
+}
+
 
 Capitala::~Capitala ()
 {

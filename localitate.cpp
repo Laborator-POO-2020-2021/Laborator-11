@@ -30,6 +30,16 @@ ostream& operator << (ostream &out, Localitate obj)
     return out;
 }
 
+double Localitate::Get_Population ()
+{
+    return nr_locuitori;
+}
+
+double Localitate::Get_Venit ()
+{
+    return venit_mediu;
+}
+
 Localitate::~Localitate ()
 {
     delete []nume;

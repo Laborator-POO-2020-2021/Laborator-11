@@ -27,6 +27,16 @@ ostream& operator << (ostream &out, Municipiu &obj)
     return out;
 }
 
+double Municipiu::Get_population ()
+{
+    return Localitate::Get_Population ();
+}
+
+double Municipiu::Get_Venit ()
+{
+    return Oras::Get_Venit ();
+}
+
 Municipiu::~Municipiu ()
 {
     delete []regiune;

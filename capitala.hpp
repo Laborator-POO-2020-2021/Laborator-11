@@ -10,6 +10,8 @@ class Capitala: public Oras
         Capitala (const char*, const int, const int, const int, const char*);
         Capitala& operator = (Capitala& obj);
         friend ostream& operator << (ostream &out, Capitala &obj);
+        double Get_Venit ();
+        double Get_Population ();
         ~Capitala ();
 };
 

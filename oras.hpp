@@ -10,6 +10,8 @@ class Oras: public Localitate
                 Oras (const char *, const int, const int, const int);
                 Oras& operator = (Oras &obj);
                 friend ostream& operator << (ostream &out, Oras &obj);
+                double Get_Population();
+                double Get_Venit ();
 };
 
 #endif

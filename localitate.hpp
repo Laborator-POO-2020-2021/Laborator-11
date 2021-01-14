@@ -13,6 +13,8 @@ class Localitate
             Localitate (const char*, const int, const int);
             Localitate& operator = (Localitate &obj);
             friend ostream& operator << (ostream &out, Localitate obj);
+            virtual double Get_Population ();
+            virtual double Get_Venit ();
             ~Localitate ();
 };
 

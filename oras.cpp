@@ -22,3 +22,13 @@ ostream& operator << (ostream &out, Oras &obj)
 
     return out;
 }
+
+double Oras::Get_Population ()
+{
+    return Localitate::Get_Population ();
+}
+
+double Oras::Get_Venit ()
+{
+    return Localitate::Get_Venit () + bonus_venit;
+}
