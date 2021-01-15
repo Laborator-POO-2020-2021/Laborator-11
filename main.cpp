@@ -6,7 +6,7 @@
 
 int main()
 {
-    //Localitate ceva("Pitesti", 100, 500);
+    Localitate ceva("Pitesti", 100, 500);
     //Oras ceva("Pitesti", 100, 500, 150);
     //Municipiu ceva("Pitesti", 100, 500, 150, "Dobrogea");
     //Capitala ceva("Pitesti", 100, 500, 150, "Romania");
