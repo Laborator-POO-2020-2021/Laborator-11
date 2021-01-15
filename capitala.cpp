@@ -36,8 +36,7 @@ Capitala &Capitala::operator=(const Capitala &obj)
 void Capitala::print(ostream &out)
 {
     Oras::print(out);
-    out << endl
-        << "Tara " << tara;
+    out << ", Tara " << tara;
 }
 
 ostream &operator<<(ostream &out, Capitala &obj)

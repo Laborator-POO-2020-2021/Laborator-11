@@ -36,8 +36,7 @@ Municipiu &Municipiu::operator=(const Municipiu &obj)
 void Municipiu::print(ostream &out)
 {
     Oras::print(out);
-    out << endl
-        << "Regiunea " << regiune;
+    out << ", Regiunea " << regiune;
 }
 
 ostream &operator<<(ostream &out, Municipiu &obj)
