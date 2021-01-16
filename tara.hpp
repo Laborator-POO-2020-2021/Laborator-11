@@ -8,7 +8,9 @@ class Tara
     public:
         Tara ();
         Tara (Localitate **);
+        Tara (Tara &obj);
         friend ostream& operator << (ostream &out, Tara &obj);
+        Tara& operator = (Tara &obj);
         double Get_Venit ();
         double Get_Population ();
         ~Tara ();

@@ -20,12 +20,10 @@ Capitala& Capitala::operator = (Capitala& obj)
     return *this;
 }
 
-ostream& operator << (ostream &out, Capitala &obj)
+void Capitala::print()
 {
-    out << (Oras&)obj;
-    out << "Tara este: "<< obj.tara << endl;
-
-    return out;
+    Oras::print ();
+    cout << "Tara este: "<< tara << endl;
 }
 
 double Capitala::Get_Population ()

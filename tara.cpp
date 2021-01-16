@@ -1,5 +1,7 @@
 #include "tara.hpp"
 
+Tara::Tara (): v (NULL) {}
+
 Tara::Tara (Localitate **loc)
 {
     Localitate *p;
@@ -13,14 +15,38 @@ Tara::Tara (Localitate **loc)
     }
 }
 
+Tara::Tara (Tara &obj)
+{
+    v = NULL;
+    
+}
+
+Tara& Tara::operator = (Tara &obj)
+{
+    Localitate *p;
+    int i;
+    if (this->v != NULL)
+        delete[]v;
+    for (i = 0, p = obj.v[0]; p != NULL; i++, p = obj.v[i])
+    {}
+    
+    v = new Localitate* [i];
+    for (i = 0, p = obj.v[0]; p != NULL; i++, p = obj.v[i])
+    {
+        this->v[i] = obj.v[i];
+    }
+
+    return *this;
+}
+
 ostream& operator << (ostream &out, Tara &obj)
 {
-    out << "Localitatile sunt: ";
+    out << "Localitatile sunt: " << endl;
     Localitate *p;
     int i;
     for (i = 0, p = obj.v[0]; p != NULL; i++, p = obj.v[i])
     {
-        out << (*(obj.v[i]));
+        obj.v[i]->print();
     }
 
     return out;

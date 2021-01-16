@@ -5,6 +5,7 @@
 using namespace std;
 class Localitate 
 {
+    public:
             char *nume;
             int nr_locuitori;
             int venit_mediu;
@@ -12,7 +13,7 @@ class Localitate
             Localitate ();
             Localitate (const char*, const int, const int);
             Localitate& operator = (Localitate &obj);
-            friend ostream& operator << (ostream &out, Localitate obj);
+            virtual void print();
             virtual double Get_Population ();
             virtual double Get_Venit ();
             ~Localitate ();

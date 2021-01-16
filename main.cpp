@@ -2,10 +2,12 @@
 #include "municipiu.hpp"
 #include "tara.hpp"
 
-void sort_by_population (Tara *);
+void sort_by_population (Tara *, int);
+void sort_by_income (Tara *, int);
 
 int main ()
 {
+
     Localitate **v1 = new Localitate* [5];
     v1[0] = new Localitate ("Cluj", 300000, 500);
     v1[1] = new Oras ("Braila", 280000, 200, 50);
@@ -32,7 +34,7 @@ int main ()
     Tara x4 (v4);
 
     Localitate **v5 = new Localitate* [2];
-    v5[0] = new Oras ("Timisoara", 375000, 650, 80);
+    v5[0] = new Oras ("Timisoara", 375000, 650, 80);;
     v5[1] = NULL;
     Tara x5 (v5);
 
@@ -43,12 +45,42 @@ int main ()
     tari[3] = x4;
     tari[4] = x5;
 
+    sort_by_population (tari, 5);
+
     for (int i = 0; i < 5; i++)
-        cout << tari[i];
+        cout << tari[i] << endl;
+    
+    cout << endl;
+    
+    sort_by_income (tari, 5);
+
+    for (int i = 0; i < 5; i++)
+        cout << tari[i] << endl;
 
 }
 
-void sort_by_population (Tara * tari)
+void sort_by_population (Tara * tari, const int numar)
 {
+    for (int i = 0; i < numar-1; i++)
+        for (int j = i + 1; j < numar; j++)
+            if (tari[i].Get_Population () < tari[j].Get_Population ())
+            {
+                Tara aux;
+                aux = tari[i];
+                tari[i] = tari[j];
+                tari[j] = aux;
+            }
+}
 
+void sort_by_income (Tara * tari, int numar)
+{
+    for (int i = 0; i < numar-1; i++)
+        for (int j = i + 1; j < numar; j++)
+            if (tari[i].Get_Venit() < tari[j].Get_Venit ())
+            {
+                Tara aux;
+                aux = tari[i];
+                tari[i] = tari[j];
+                tari[j] = aux;
+            }
 }

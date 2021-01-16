@@ -19,12 +19,10 @@ Municipiu& Municipiu::operator = (Municipiu &obj)
     return *this;
 }
 
-ostream& operator << (ostream &out, Municipiu &obj)
+void Municipiu::print()
 {
-    out << (Oras&)obj;
-    out << "Regiunea este: " << obj.regiune << endl;
-
-    return out;
+    Oras::print();
+    cout << "Regiunea este: " << regiune << endl;
 }
 
 double Municipiu::Get_population ()

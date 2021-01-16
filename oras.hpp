@@ -4,12 +4,13 @@
 
 class Oras: public Localitate
 {
+        public:
                 int bonus_venit; //venitul unui oras este venitul localitatii + bonus_venit.
         public:
                 Oras ();
                 Oras (const char *, const int, const int, const int);
                 Oras& operator = (Oras &obj);
-                friend ostream& operator << (ostream &out, Oras &obj);
+                void print();
                 double Get_Population();
                 double Get_Venit ();
 };

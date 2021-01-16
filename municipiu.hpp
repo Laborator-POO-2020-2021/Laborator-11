@@ -9,7 +9,7 @@ class Municipiu: public Oras
             Municipiu ();
             Municipiu (const char *, const int, const int, const int, const char*);
             Municipiu& operator = (Municipiu &obj);
-            friend ostream& operator << (ostream &out, Municipiu &obj);
+            void print();
             double Get_Venit ();
             double Get_population ();
             ~Municipiu ();

@@ -22,12 +22,10 @@ Localitate& Localitate::operator = (Localitate &obj)
     return *this;
 }
 
-ostream& operator << (ostream &out, Localitate obj)
+void Localitate::print()
 {
-    out << "Numele localitatii este: " << obj.nume << endl;
-    out << "Numarul de locuitori este: " << obj.nr_locuitori << " si au salariul mediu de: " << obj.venit_mediu <<"$"<< endl;
-
-    return out;
+    cout << "Numele localitatii este: " << nume << endl;
+    cout << "Numarul de locuitori este: " << nr_locuitori << " si au salariul mediu de: " << venit_mediu <<"$"<< endl;
 }
 
 double Localitate::Get_Population ()

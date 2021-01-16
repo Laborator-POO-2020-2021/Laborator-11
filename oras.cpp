@@ -15,12 +15,10 @@ Oras& Oras::operator = (Oras &obj)
     return *this;
 }
 
-ostream& operator << (ostream &out, Oras &obj)
+void Oras::print()
 {
-    out << (Localitate&)obj;
-    out << "Bonusul este: " << obj.bonus_venit << endl;
-
-    return out;
+    Localitate::print ();
+    cout << "Bonusul este: " << bonus_venit << endl;
 }
 
 double Oras::Get_Population ()
