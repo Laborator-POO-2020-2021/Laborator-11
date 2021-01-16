@@ -42,42 +42,31 @@ Tara& Tara::operator =(const Tara&obj)
 	}
 	return *this;
 }
-void Tara::sortare_nrloc()
+int Tara::nrloc_tot()
 {
 	int i = 0;
-	int j = 0;
-	Localitate* aux;
+	int s = 0;
 	while (v[i] != NULL)
 		i++;
-	for(j=0;j<(i-1);j++)
-		for (int n = j+1; n < i; n++)
-		{
-			if (v[j]->locuitori() < v[n]->locuitori())
-			{
-				aux = v[j];
-				v[j] = v[n];
-				v[n] = aux;
-			}
-		}
+	for (int j = 0; j < i; j++)
+		s += v[j]->locuitori();
+		
+			
+
+	return s;
 
 }
-void Tara::sortare_venit()
+int Tara::venit_tot()
 {
 	int i = 0;
 	int j = 0;
+	int s=0;
 	Localitate* aux;
 	while (v[i] != NULL)
 		i++;
-	for (j = 0; j < (i - 1); j++)
-		for (int n = j + 1; n < i; n++)
-		{
-			if (v[j]->venit() < v[n]->venit())
-			{
-				aux = v[j];
-				v[j] = v[n];
-				v[n] = aux;
-			}
-		}
+	for (j = 0; j < i; j++)
+		s = +v[j]->venit();
+	return s;
 }
 Tara::Tara(const Tara&obj)
 {

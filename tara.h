@@ -13,8 +13,8 @@ public:
     void afisare();
     Tara(const Tara&);
     Tara& operator =(const Tara&);
-    void sortare_nrloc();
-    void sortare_venit();
+    int nrloc_tot();
+    int venit_tot();
 };
 
 #endif
