@@ -1,3 +1,11 @@
-#include <iostream>
-#include <cstring>
-using namespace std;
+#ifndef MUNICIPIU_HPP
+#define MUNICIPIU_HPP
+
+#include "Oras.hpp"
+
+class Minicipiu
+{
+    char *regiune;
+};
+
+#endif
