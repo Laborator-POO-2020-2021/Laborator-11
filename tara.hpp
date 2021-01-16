@@ -11,12 +11,12 @@ private:
 public:
     Tara();
     Tara(Localitate **);
-    Tara &operator=(const Tara );
+    Tara &operator=(Tara &);
     ~Tara();
 
     friend ostream &operator<<(ostream &, Tara &);
 
-    int getVenit_mediu() const;
+    int getVenit_mediu();
     int getLocuitori() const;
 };
 

@@ -35,7 +35,7 @@ ostream &operator<<(ostream &out, Oras &obj)
     return out;
 }
 
-int Oras::getVenit_mediu() const
+int Oras::getVenit_mediu()
 {
-    return venit_mediu + bonus_venit;
+    return (venit_mediu + bonus_venit);
 }

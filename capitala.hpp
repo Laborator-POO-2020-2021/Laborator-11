@@ -18,7 +18,7 @@ public:
     friend ostream& operator<<(ostream &, Capitala &);
     void print(ostream &);
 
-    int getVenit_mediu() const;
+    int getVenit_mediu();
 };
 
 #endif

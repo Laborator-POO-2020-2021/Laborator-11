@@ -45,7 +45,7 @@ ostream &operator<<(ostream &out, Capitala &obj)
     return out;
 }
 
-int Capitala::getVenit_mediu() const
+int Capitala::getVenit_mediu()
 {
     return Oras::getVenit_mediu();
 }

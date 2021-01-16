@@ -1,6 +1,7 @@
 #include "capitala.hpp"
 #include "municipiu.hpp"
 #include "tara.hpp"
+#include "functions.hpp"
 
 int main()
 {
@@ -38,16 +39,29 @@ int main()
     e[3] = NULL;
     Tara e1(e);
 
+
     Tara *vec = new Tara[5];
     vec[0] = a1;
     vec[1] = b1;
     vec[2] = c1;
     vec[3] = d1;
     vec[4] = e1;
+    //cout<<"hi";
+    //cout<<vec[4].getVenit_mediu();
+    sortVenit(vec, 5);
+    //cout<<vec[1].getVenit_mediu();
+    cout<< "Sortarea dupa venit: \n\n";
+    for (int i = 0; i < 5; i++)
+        cout << vec[i]<<endl;
+     //cout<<vec[4];
 
-   // for (int i = 0; i < 5; i++)
-     //   cout << vec[i]<<endl;
-     cout<<vec[4];
+     cout<<"\n\nSortarea dupa locuitori:\n\n";
+     sortLocuitori(vec,5);
+     for (int i = 0; i < 5; i++)
+        cout << vec[i]<<endl;
+
+    delete [] vec;
+    delete [] a,b,c,d,e;
 
     return 0;
 }

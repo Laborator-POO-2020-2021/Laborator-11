@@ -45,7 +45,7 @@ ostream &operator<<(ostream &out, Municipiu &obj)
     return out;
 }
 
-int Municipiu::getVenit_mediu() const
+int Municipiu::getVenit_mediu()
 {
     return Oras::getVenit_mediu();
 }

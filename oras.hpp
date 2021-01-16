@@ -17,7 +17,7 @@ public:
     friend ostream& operator<<(ostream &, Oras &);
     void print(ostream &);
 
-    int getVenit_mediu() const;
+    virtual int getVenit_mediu();
 
 };
 
