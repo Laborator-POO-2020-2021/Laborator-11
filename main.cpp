@@ -19,23 +19,26 @@ int main()
 	local1[4] = NULL;
 
 	Localitate **local2;
-	local2 = new Localitate*[2];
+	local2 = new Localitate*[3];
 	local2[0] = new Localitate("Test2",1100,2030);
 	local2[1] = new Oras(5400,"Tryhard",1230,2020);
+	local2[3] = NULL;
 
 	Localitate **local3;
-	local3 = new Localitate*[2];
+	local3 = new Localitate*[3];
 	local3[0] = new Localitate("Test21",11300,21030);
 	local3[1] = new Capitala("TotRomania",500,"test1",1200,2300);
+	local3[2] = NULL;
 
 	Localitate **local4;
-	local4 = new Localitate*[1];
+	local4 = new Localitate*[2];
 	local4[0] = new Municipiu("Nop",500,"te",1030,2001);
+	local4[1] = NULL;
 
 	Localitate **local5;
-	local5 = new Localitate*[1];
+	local5 = new Localitate*[2];
 	local5[0] = new Municipiu("RegiuneaRomaa3ania",5200,"test1",23,20230);
-
+	local5[1] = NULL;
 
 
 	Tara **tari;

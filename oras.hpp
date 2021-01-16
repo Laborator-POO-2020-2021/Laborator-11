@@ -12,5 +12,7 @@ public:
     Oras(int);
     Oras(int,const char*,int,int);
     ~Oras();
+
+    void afis();
 };
 #endif

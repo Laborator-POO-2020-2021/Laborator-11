@@ -16,6 +16,7 @@ public:
     int getNrLocuitori();
     int getVenitMediu();
     char* getNume();
+    virtual void afis();
 };
 
 #endif

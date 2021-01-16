@@ -11,5 +11,7 @@ public:
   Municipiu(const char*);
   Municipiu(const char*,int,const char*,int,int);
   ~Municipiu();
+
+  void afis();
 };
 #endif

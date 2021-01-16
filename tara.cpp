@@ -44,11 +44,14 @@ void Tara::afis()
   cout << endl << "////////////TARA////////////" << endl;
   while(v[i] != NULL)
   {
-    cout << "Nume localitate: " << v[i]->getNume() <<endl;
+    v[i]->afis();
+    /*cout << "Nume localitate: " << v[i]->getNume() <<endl;
     cout << "Nr locuitori localitate" << v[i]->getNrLocuitori()<<endl;
     cout << "Venit mediu localitate: " << v[i]->getVenitMediu() <<endl;
     cout << "=======================" << endl;
+    */
     i++;
   }
+
   cout << "//////////////////////////" << endl;
 }

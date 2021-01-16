@@ -19,3 +19,8 @@ Municipiu::~Municipiu()
   if(this->regiune!=NULL)
     delete []this->regiune;
 }
+
+void Municipiu:: afis()
+{
+  cout << "Regiune: " << this->regiune << endl;
+}

@@ -28,3 +28,11 @@ char* Localitate::getNume()
 {
   return this->nume;
 }
+
+void Localitate::afis()
+{
+  cout << "Nume localitate: " << this->nume << endl;
+  cout << "Nr locuitori: " << this->nr_locuitori << endl;
+  cout << "Venit mediu: " << this->venit_mediu << endl;
+
+}

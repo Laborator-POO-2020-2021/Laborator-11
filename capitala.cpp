@@ -14,3 +14,8 @@ Capitala::~Capitala()
   if(this->tara!=NULL)
     delete []this->tara;
 }
+
+void Capitala:: afis()
+{
+  cout << "Tara: " << this->tara << endl;
+}

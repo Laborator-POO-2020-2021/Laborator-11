@@ -10,6 +10,8 @@ public:
   Capitala();
   Capitala(const char*,int,const char*,int,int);
   ~Capitala();
+
+  void afis();
 };
 
 #endif
