@@ -108,12 +108,12 @@ int main()
 	 	cout << endl;
 	 }
 	 
-//	 delete []v;
-//	 delete []loc1;
-//	 delete []loc2;
-//	 delete []loc3;
-//	 delete []loc4;
-//	 delete []loc5;
+	 delete []v;
+	 delete []loc1;
+	 delete []loc2;
+	 delete []loc3;
+	 delete []loc4;
+	 delete []loc5;
 
 	 
 	return 0;
