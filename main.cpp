@@ -1,5 +1,4 @@
-#include <iostream>
-using namespace std;
+#include "Tara.hpp"
 
 int main()
 {

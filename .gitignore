@@ -33,3 +33,6 @@
 
 # Dev-C++ Project
 *.dev
+
+# Makefile on Windows
+*.win
