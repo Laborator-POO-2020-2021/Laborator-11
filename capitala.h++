@@ -10,8 +10,11 @@ private:
 
 public:
     Capitala();
-    Capitala(char *);
+    Capitala(const char*, const Oras&);
     ~Capitala();
+
+    Capitala &operator=(const Capitala&);
+    friend std::ostream& operator<<(std::ostream&, Capitala&);
 };
 
 

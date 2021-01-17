@@ -13,9 +13,11 @@ protected:
 
 public:
     Localitate();
-    Localitate(char *, int, int);
+    Localitate(const char*, const int, const int);
     ~Localitate();
-    
+
+    Localitate &operator=(const Localitate&);
+    friend std::ostream& operator<<(std::ostream&, Localitate&);
 };
 
 

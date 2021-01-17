@@ -10,8 +10,11 @@ protected:
 
 public:
     Oras();
-    Oras(int);
+    Oras(const int, Localitate);
     ~Oras() = default;
+
+    Oras &operator=(const Oras&);
+    friend std::ostream& operator<<(std::ostream&, Oras&);
 };
 
 

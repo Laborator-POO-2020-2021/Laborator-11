@@ -5,13 +5,16 @@
 
 class Municipiu : public Oras{
 
-private:
+protected:
     char* regiune;
 
 public:
     Municipiu();
-    Municipiu(char *);
+    Municipiu(const char*, Oras&);
     ~Municipiu();
+
+    Municipiu &operator=(const Municipiu&);
+    friend std::ostream& operator<<(std::ostream&, Municipiu&);
 };
 
 
