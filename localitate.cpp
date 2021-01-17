@@ -12,7 +12,7 @@ Localitate & Localitate::operator=(const Localitate& obj)
 {
 	this->nr_locuitori = obj.nr_locuitori;
 	this->venit_mediu = obj.venit_mediu;
-	if(nume!=NULL)
+	if(nume != NULL)
 		delete []nume;
 	
 	this->nume = new char[strlen(obj.nume)+1];

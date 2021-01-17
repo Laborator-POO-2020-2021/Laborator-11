@@ -24,6 +24,7 @@ void Oras::afisare()
 //	cout << "Venit mediu: " << Localitate::getVenitMediu() << endl;
 
 	Localitate::afisare();
+	
 	cout << "Bonus venit: " << Oras::getBonusVenit() << endl;
 	
 }

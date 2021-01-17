@@ -13,6 +13,7 @@ public:
     
     char* getTara();
     void afisare();
+    
 	~Capitala();
 
 };

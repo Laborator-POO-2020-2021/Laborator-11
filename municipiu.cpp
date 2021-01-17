@@ -13,7 +13,7 @@ Municipiu& Municipiu::operator=(const Municipiu& obj)
 {
 	Localitate::operator=(obj);
 	Oras::operator=(obj);
-	if(regiune!=NULL) 
+	if(regiune != NULL) 
 	 	delete []regiune;
 	 	
 	this->regiune = new char[strlen(obj.regiune)+1];

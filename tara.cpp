@@ -39,6 +39,7 @@ void Tara::afisare()
 	}
 }
 
+
 Tara::~Tara()
 {
 	delete []v;

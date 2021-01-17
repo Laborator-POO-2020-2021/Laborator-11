@@ -13,6 +13,7 @@ public:
     
     char* getRegiune();
     void afisare();
+    
 	~Municipiu();
 };
 #endif

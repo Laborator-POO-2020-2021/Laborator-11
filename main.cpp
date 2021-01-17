@@ -52,7 +52,7 @@ int main()
 	
 	for(int i = 0 ; i < 5; i ++)
 	 {
-	 	cout << "===== Tara " << i << " =====" << endl << endl;
+	 	cout << "===== Tara " << i + 1 << " =====" << endl << endl;
 	 	v[i]->afisare();
 	 	cout << "Nr de locuitori ai tarii: " << v[i]->NrLoc() << endl;
 	 	cout << "Venitul mediu al tarii " << v[i]->VenitMed() << endl << endl;
@@ -78,7 +78,7 @@ int main()
 	cout<<"Sortare tari dupa nr locuitori:"<< endl << endl;
 	for(int i = 0 ; i < 5; i ++)
 	 {
-	 	cout << "===== Tara " << i << " =====" << endl << endl;
+	 	cout << "===== Tara " << i + 1 << " =====" << endl << endl;
 	 	v[i]->afisare();
 	 	cout << "Nr de locuitori ai tarii: " << v[i]->NrLoc() << endl << endl;
 	 	cout << endl;
@@ -102,7 +102,7 @@ int main()
 	cout<<"Sortare tari dupa venit mediu: "<< endl << endl;
 	for(int i = 0 ; i < 5; i ++)
 	 {
-	 	cout << "===== Tara " << i << " =====" << endl << endl;
+	 	cout << "===== Tara " << i + 1 << " =====" << endl << endl;
 	 	v[i]->afisare();
 	 	cout << "Venitul mediu al tarii " << v[i]->VenitMed() << endl << endl;
 	 	cout << endl;

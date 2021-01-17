@@ -13,6 +13,7 @@ public:
     int NrLoc();
     int VenitMed();
 	void afisare();
+	
 	~Tara();
 };
 

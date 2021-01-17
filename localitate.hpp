@@ -20,6 +20,7 @@ public:
 	int getNrLocuitori();
 	int getVenitMediu();
 	virtual void afisare();
+	
     ~Localitate();
     
 };

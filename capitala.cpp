@@ -13,7 +13,7 @@ Capitala& Capitala::operator=(const Capitala& obj)
 {
 	Localitate::operator=(obj);
 	Oras::operator=(obj);
-	if(tara!=NULL)
+	if(tara != NULL)
 		delete []tara;
 
 	this->tara = new char [strlen(obj.tara)+1];

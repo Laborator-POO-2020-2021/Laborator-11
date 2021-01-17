@@ -11,6 +11,7 @@ public:
     Oras(int, const char*, int, int);
     Oras &operator=(const Oras&);
     
+    
     int getBonusVenit();
     void afisare();
 };
