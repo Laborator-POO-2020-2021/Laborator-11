@@ -1,0 +1,75 @@
+# depslib dependency file v1.0
+1610877247 source:c:\users\user\desktop\lab11\localitate.cpp
+	"localitate.hpp"
+
+1610871058 c:\users\user\desktop\lab11\localitate.hpp
+	<iostream>
+	<cstring>
+
+1610881009 source:c:\users\user\desktop\lab11\main.cpp
+	"municipiu.hpp"
+	"capitala.hpp"
+	"tara.hpp"
+
+1610871058 c:\users\user\desktop\lab11\tara.hpp
+	"municipiu.hpp"
+	"capitala.hpp"
+
+1610871058 c:\users\user\desktop\lab11\municipiu.hpp
+	"oras.hpp"
+
+1610878840 c:\users\user\desktop\lab11\oras.hpp
+	"localitate.hpp"
+
+1610871058 c:\users\user\desktop\lab11\capitala.hpp
+	"oras.hpp"
+
+1610871058 source:c:\users\user\desktop\lab11\capitala.cpp
+	"capitala.hpp"
+
+1610871058 source:c:\users\user\desktop\lab11\municipiu.cpp
+	"municipiu.hpp"
+
+1610871058 source:c:\users\user\desktop\lab11\oras.cpp
+	"oras.hpp"
+
+1610880199 source:c:\users\user\desktop\lab11\tara.cpp
+	"tara.hpp"
+
+1610911033 source:c:\users\user\desktop\lab poo\main.cpp
+	"municipiu.hpp"
+	"capitala.hpp"
+	"tara.hpp"
+
+1610910016 c:\users\user\desktop\lab poo\municipiu.hpp
+	"oras.hpp"
+
+1610913017 c:\users\user\desktop\lab poo\oras.hpp
+	"localitate.hpp"
+
+1610910016 c:\users\user\desktop\lab poo\localitate.hpp
+	<iostream>
+	<cstring>
+
+1610910016 c:\users\user\desktop\lab poo\capitala.hpp
+	"oras.hpp"
+
+1610910013 c:\users\user\desktop\lab poo\tara.hpp
+	"municipiu.hpp"
+	"capitala.hpp"
+
+1610912717 source:c:\users\user\desktop\lab poo\oras.cpp
+	"oras.hpp"
+
+1610912716 source:c:\users\user\desktop\lab poo\tara.cpp
+	"tara.hpp"
+
+1610912838 source:c:\users\user\desktop\lab poo\capitala.cpp
+	"capitala.hpp"
+
+1610912838 source:c:\users\user\desktop\lab poo\localitate.cpp
+	"localitate.hpp"
+
+1610912838 source:c:\users\user\desktop\lab poo\municipiu.cpp
+	"municipiu.hpp"
+
