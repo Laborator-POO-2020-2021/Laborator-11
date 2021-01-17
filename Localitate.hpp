@@ -18,6 +18,8 @@ public:
 	~Localitate();
 	
 	virtual void afisare();
+    virtual int getNrLocuitori();
+    virtual int getVenit();
 };
 
 #endif

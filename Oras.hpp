@@ -13,6 +13,8 @@ public:
 	Oras(const char*, int, int, int);
 	
 	void afisare();
+    int getNrLocuitori();
+    int getVenit();
 };
 
 #endif

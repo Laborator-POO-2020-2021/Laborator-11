@@ -13,6 +13,8 @@ public:
     ~Municipiu();
 
     void afisare();
+    //int getNrLocuitori();
+    //int getVenit();
 };
 
 #endif

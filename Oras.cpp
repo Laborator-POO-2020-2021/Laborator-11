@@ -18,3 +18,13 @@ void Oras::afisare()
 	cout << "Venit total: " << venit_mediu + bonus_venit << endl;
     cout << "------------------------------" << endl;
 };
+
+int Oras::getNrLocuitori()
+{
+    return nr_locuitori;
+};
+
+int Oras::getVenit()
+{
+    return venit_mediu + bonus_venit;
+};

@@ -13,6 +13,8 @@ public:
 	~Capitala();
 	
 	void afisare();
+    //int getNrLocuitori();
+    //int getVenit();
 };
 
 #endif

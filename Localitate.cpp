@@ -25,3 +25,13 @@ void Localitate::afisare()
     cout << "Venit mediu: " << venit_mediu << endl;
     cout << "------------------------------" << endl;
 };
+
+int Localitate::getNrLocuitori()
+{
+    return nr_locuitori;
+};
+
+int Localitate::getVenit()
+{
+    return venit_mediu;
+};

@@ -11,9 +11,12 @@ class Tara
 public:
 	Tara();
 	Tara(Localitate**);
-	~Tara();
+	//~Tara();
 	
 	void afisare();
+	int getNrLocuitori();
+	float getVenitMediu();
+	Tara& operator=(const Tara&);
 };
 
 #endif
