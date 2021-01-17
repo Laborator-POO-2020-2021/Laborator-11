@@ -1,21 +1,22 @@
 #ifndef TARA_HPP
 #define TARA_HPP
 
+#include <iostream>
+#include <cstring>
 
-#include "municipiu.hpp"
-#include "capitala.hpp"
+#include "localitate.hpp"
 
-class Tara
-{
-        Localitate **v; //#hint:pentru a parcurge vectorul puneti pe ultima pozitie NULL si parcurgeti vectorul pana dati de NULL.
+using namespace std;
+
+class Tara{
+    Localitate **v;
 public:
 	Tara();
 	Tara(Localitate**);
+	~Tara();
 	void afisare();
-	Tara(const Tara&);
-	Tara& operator=(const Tara&);
-	int getVenit();
-	int getLocuitori();   
-	~Tara();     
+	int recensamant();
+	int buget();
 };
+
 #endif

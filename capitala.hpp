@@ -1,17 +1,20 @@
 #ifndef CAPITALA_HPP
 #define CAPITALA_HPP
+
+#include <iostream>
+#include <cstring>
+
 #include "oras.hpp"
 
-class Capitala:public Oras
-{
-        char *tara;
+using namespace std;
+
+class Capitala: public Oras{
+    char * tara;
 public:
 	Capitala();
-	Capitala(const char*,int,int,int  ,const char* );
+	Capitala(const char*, const char*, int, int, int);
 	~Capitala();
-	Capitala(const  Capitala&);
-	Capitala& operator=(const Capitala&);
 	void afisare();
 };
-#endif
 
+#endif
