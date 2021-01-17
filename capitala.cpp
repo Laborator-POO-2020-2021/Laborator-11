@@ -55,3 +55,4 @@ Capitala::~Capitala()
 {
 	delete []tara;
 }
+

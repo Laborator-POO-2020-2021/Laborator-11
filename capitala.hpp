@@ -19,4 +19,5 @@ class Capitala:public Oras
 };
 
 
+
 #endif

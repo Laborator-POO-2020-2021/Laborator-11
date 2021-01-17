@@ -65,3 +65,4 @@ Localitate::~Localitate()
 {
 	delete []nume;
 }
+

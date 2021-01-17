@@ -55,3 +55,4 @@ Municipiu::~Municipiu()
 {
 	delete []regiune;
 }
+

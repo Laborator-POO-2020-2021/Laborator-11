@@ -19,3 +19,4 @@ class Oras:public Localitate
 };
 
 #endif
+

@@ -53,3 +53,4 @@ void Oras::afisare1()
 	Localitate::afisare1();
 	cout<<".Bonus venit: "<<bonus_venit<<" ";
 }
+
