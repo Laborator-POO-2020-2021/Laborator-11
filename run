@@ -1,0 +1,5 @@
+#!/bin/bash
+g++ -c Localitate.cpp Oras.cpp Municipiu.cpp Capitala.cpp Tara.cpp main.cpp
+g++ -o lab11 Localitate.o Oras.o Municipiu.o Capitala.o Tara.o main.o
+./lab11
+
