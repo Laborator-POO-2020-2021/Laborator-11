@@ -18,7 +18,9 @@ void Localitate::afisare()
 	cout << "------------------------------" << endl;
     cout << "Localitate" << endl;
     cout << "------------------------------" << endl;
-    cout << "Nume: " << nume << endl;
+    if(nume != NULL)
+    	cout << "Nume: " << nume << endl;
+    else cout << "Nume: " << "[NEDEFINIT!]" << endl;
     cout << "Nr locuitori: " << nr_locuitori << endl;
     cout << "Venit mediu: " << venit_mediu << endl;
     cout << "------------------------------" << endl;

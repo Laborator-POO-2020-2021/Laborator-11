@@ -2,16 +2,18 @@
 
 int main()
 {
-	Localitate **v;
-	v = new Localitate*[4];
+	Localitate **localitati_ro;
+	localitati_ro = new Localitate*[5];
 	
-	v[0] = new Localitate("Caracal", 200, 300);
-	v[1] = new Oras("Brasov", 300, 400, 100);
-	v[2] = new Capitala("Bucuresti", 400, 500, 200, "Romania");
-	v[3] = new Municipiu("Slatina", 500, 600, 300, "Olt");
+	localitati_ro[0] = new Localitate("Caracal", 200, 300);
+	localitati_ro[1] = new Oras("Brasov", 300, 400, 100);
+	localitati_ro[2] = new Capitala("Bucuresti", 400, 500, 200, "Romania");
+	localitati_ro[3] = new Municipiu("Slatina", 500, 600, 300, "Olt");
+	localitati_ro[4] = NULL;
 	
-	v[0]->afisare();
-	v[1]->afisare();
-	v[2]->afisare();
-	v[3]->afisare();
+	cout << "------------------------------" << endl;
+    cout << "Tara: Romania" << endl;
+    cout << "------------------------------" << endl;	
+	Tara Romania(localitati_ro);
+	Romania.afisare();
 }

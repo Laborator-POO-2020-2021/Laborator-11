@@ -18,11 +18,15 @@ void Municipiu::afisare()
     cout << "------------------------------" << endl;
     cout << "Municipiu" << endl;
     cout << "------------------------------" << endl;
-    cout << "Nume: " << nume << endl;
+    if(nume != NULL)
+    	cout << "Nume: " << nume << endl;
+    else cout << "Nume: " << "[NEDEFINIT!]" << endl;
     cout << "Nr locuitori: " << nr_locuitori << endl;
     cout << "Venit mediu: " << venit_mediu << endl;
 	cout << "Bonus venit: " << bonus_venit << endl;
-	cout << "Regiune: " << regiune << endl;
+	if(nume != NULL)
+    	cout << "Regiune: " << regiune << endl;
+    else cout << "Regiune: " << "[NEDEFINIT!]" << endl;
 	cout << "Venit total: " << venit_mediu + bonus_venit << endl;
     cout << "------------------------------" << endl;
 }

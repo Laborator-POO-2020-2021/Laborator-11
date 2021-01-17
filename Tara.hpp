@@ -6,7 +6,14 @@
 
 class Tara
 {
-    Localitate **v; 
+    Localitate **v;
+    
+public:
+	Tara();
+	Tara(Localitate**);
+	~Tara();
+	
+	void afisare();
 };
 
 #endif
