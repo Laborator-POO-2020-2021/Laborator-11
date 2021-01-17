@@ -2,80 +2,51 @@
 
 Tara::Tara()
 {
-	v=NULL;		
+    v=NULL;
 }
 
-Tara::Tara(Localitate**v)
+Tara::Tara(Localitate **v)
 {
-this->v=new Localitate*[5];
-this->v=v;
-	
+    int i;
+    this->v=new Localitate*[5];
+    for(i=0; i<5; i++){
+        this->v[i]=v[i];
+    }
+
 }
 
-Tara::Tara(const Tara&obj)
+Tara::Tara(const Tara &obj)
 {
-	v=NULL;
-	*this=obj;
-	
+    v=NULL;
+    *this=obj;
 }
 
-Tara& Tara:: operator=(const Tara&obj)
+
+int Tara::nr_loc()
 {
-	if(v!=NULL)
-	{
-		delete[] v;
-		}	
-		v=new Localitate*[5];
-		for(int i=0;i<5;i++)
-		v[i]=obj.v[i];
+    int total=0;
+    int i;
+
+    for(i=0; i<4; i++)
+        total=total+v[i]->nr_loc();
+
+    return total;
 }
-	
-Tara::~Tara()
-{
-	delete []v;
-}
-
-
-
 int Tara::getVenit()
 {
-	int total=0;
-	for(int i=0;i<5;i++)
-	if(v[i]!=NULL)
-	{
-	total=total+v[i]->getVenit();
-    }
-    
-    
-	return total;
+    int total=0;
+    int i;
+
+    for(i=0; i<4; i++)
+        total=total+v[i]->getVenit();
+
+    return total;
 }
-
-int Tara::getLocuitori()
-{
-	int populatie=0;
-	for(int i=0;i<5;i++)
-	if(v[i]!=NULL)
-	{
-	populatie=populatie+v[i]->getLocuitori();
-    }
-    cout<<endl;
-	return populatie;
-}
-
-
 void Tara::afisare()
 {
-	for(int i=0;i<5;i++)
-	{
-		if(v[i]!=NULL)
-		{
-			v[i]->afisare();
-			cout<<endl;
-		}
-		
-	}
-	
-	
-	
+    int i;
+    for(i=0; i<4; i++)
+    {
+        v[i]->afisare();
+    }
 }
-

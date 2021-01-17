@@ -1,113 +1,79 @@
-#include "tara.hpp"
-
-
+#include "Municipiu.hpp"
+#include "Capitala.hpp"
+#include "Tara.hpp"
 
 int main()
 {
-	//Capitala obj("flamanda",60,90,100,"FLAMANZENI");
-	//obj.afisare();
-	Localitate**v=new Localitate*[5];
-	v[0]=new Localitate("Buzau",4000,1500);
-	v[1]=new Oras("Brasov",400,500,3000);
-	v[2]=new Municipiu("Sibiu",400,500,400,"Flamanda");
-	v[3]=new Capitala("Sibiu",400,500,300,"Flamanzeni");
-	v[4]=NULL;
-	Tara*vector=new Tara[5];
-	vector[0]=Tara(v);
-	vector[0].afisare();
-//cout<<vector[0].getVenit();
-cout<<vector[0].getLocuitori();
-	
-	Localitate**v1=new Localitate*[5];
-	v1[0]=new Localitate("localitate",4000,1500);
-	v1[1]=new Oras("oras",500,600,3000);
-	v1[2]=new Municipiu("municipiu",700,800,900,"Flamanda1");
-	v1[3]=new Capitala("cpaitala",100,200,300,"Flamanzeni1");
-	v1[4]=NULL;
-	vector[1]=Tara(v1);
-	
-		Localitate**v2=new Localitate*[5];
-	v2[0]=new Localitate("localitate1",1000,2500);
-	v2[1]=new Oras("oras1",100,200,4000);
-	v2[2]=new Municipiu("municipiu1",800,900,100,"Flamanda2");
-	v2[3]=new Capitala("cpaitala1",300,400,500,"Flamanzeni2");
-	v2[4]=NULL;
-	vector[2]=Tara(v2);
-	
-		Localitate**v3=new Localitate*[5];
-	v3[0]=new Localitate("localitate2",2000,3500);
-	v3[1]=new Oras("oras2",200,300,5000);
-	v3[2]=new Municipiu("municipiu2",900,1000,1100,"Flamanda3");
-	v3[3]=new Capitala("cpaitala2",3000,4000,5000,"Flamanzeni3");
-	v3[4]=NULL;
-	vector[3]=Tara(v3);
-	
-		Localitate**v4=new Localitate*[5];
-	v4[0]=new Localitate("localitate3",30000,3700);
-	v4[1]=new Oras("oras3",100,700,8000);
-	v4[2]=new Municipiu("municipiu3",1000,1100,1200,"Flamanda4");
-	v4[3]=new Capitala("cpaitala3",4000,5000,6000,"Flamanzeni4");
-	v4[4]=NULL;
-	vector[4]=Tara(v4);
-	
-		cout<<endl;
-		cout<<"===================================afisare=======================================";
-		cout<<endl;	
-		for(int i=0;i<5;i++)
-	{
-			cout<<"========"<<i<<"==============="<<endl;
-		vector[i].afisare();}
-	
+    int i;
+    Localitate **l1;
 
-	
-	
-	for(int i=0;i<4;i++)
-		for(int j=i+1;j<5;j++)
-		{
-			if(vector[i].getLocuitori()>vector[j].getLocuitori())
-			{
-				Tara aux;
-				aux=vector[i];
-				vector[i]=vector[j];
-				vector[j]=aux;
-				
-			}
-			
-			
-		}
-		
-		cout<<"=============================================================afisare dupa sortare in functie de nr locuitori========================================================";
-		for(int i=0;i<5;i++)
-	{
-			cout<<"========"<<i<<"==============="<<endl;
-		vector[i].afisare();
-		cout<<endl;
-		}
-		
-			for(int i=0;i<4;i++)
-		for(int j=i+1;j<5;j++)
-		{
-			if(vector[i].getVenit()>vector[j].getVenit())
-			{
-				Tara aux;
-				aux=vector[i];
-				vector[i]=vector[j];
-				vector[j]=aux;
-				
-			}}
-			
-		
-			cout<<"=============================================================afisare dupa sortare in functie de venit========================================================";
-		for(int i=0;i<5;i++)
-	{
-			cout<<"========"<<i<<"==============="<<endl;
-		vector[i].afisare();
-		cout<<endl;
-		}
-		
-		
-		
-		delete[] vector;
-		
-	return 0;
+    l1=new Localitate*[4];
+
+    l1[0]=new Localitate("Birra",1000,1000);
+    l1[1]=new Oras(15000,15000,2000,"Republic");
+    l1[2]=new Municipiu("Leskovic",87000,25000,10000,"Kolonje");
+    l1[3]=new Capitala("Tirane",900000,80000,38000,"Albania");
+
+    Localitate **l2;
+
+    l2=new Localitate*[4];
+
+    l2[0]=new Localitate("Kristalopihia",8200,450);
+    l2[1]=new Oras(26000,22100,3500,"Venizelos");
+    l2[2]=new Municipiu("Thesalia",200000,76000,19420,"Kardista");
+    l2[3]=new Capitala("Atena",1234000,154000,54200,"Greece");
+
+    Localitate **l3;
+
+    l3=new Localitate*[4];
+
+    l3[0]=new Localitate("Tregu",3000,100);
+    l3[1]=new Oras(14000,14000,7000,"Kratar");
+    l3[2]=new Municipiu("Fushe Kosove",38000,13000,4000,"Bedene");
+    l3[3]=new Capitala("Pristina",741000,54000,30000,"Kosovo");
+
+    Localitate **l4;
+
+    l4=new Localitate*[4];
+
+    l4[0]=new Localitate("Srapska",3550,270);
+    l4[1]=new Oras(20000,20000,8000,"Ujemire");
+    l4[2]=new Municipiu("Vardar",50000,17000,9000,"Novoselo");
+    l4[3]=new Capitala("Skopie",986000,97000,62080,"North Macedonia");
+
+    Localitate **l5;
+
+    l5=new Localitate*[4];
+
+    l5[0]=new Localitate("Parka",1000,100);
+    l5[1]=new Oras(20000,20000,7000,"Plava");
+    l5[2]=new Municipiu("Gucia",65000,20000,9000,"Budva");
+    l5[3]=new Capitala("Podgorica",7640000,69206,60000,"Montenegro");
+
+    Tara **t;
+
+    t=new Tara*[5];
+
+    t[0]=new Tara(l1);
+    t[1]=new Tara(l2);
+    t[2]=new Tara(l3);
+    t[3]=new Tara(l4);
+    t[4]=new Tara(l5);
+//sortare dupa numerul de locuitori
+    for(i=0; i<5; i++)
+    {
+        cout<<" "<<t[i]->nr_loc()<<" "<<endl;
+    }
+//sortare dupa venitul medie
+    for(i = 0; i<5; i++)
+    {
+        cout <<" "<<t[i]->getVenit()<<" ";
+    }
+//Afisarea tarilor
+    for(i=0; i<5; i++)
+    {
+        t[i]->afisare();
+    }
+
+    return 0;
 }

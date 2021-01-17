@@ -1,29 +1,27 @@
 #include "oras.hpp"
 
-Oras::Oras():Localitate()
+Oras:: Oras() : Localitate()
 {
-	bonus_venit=0;
+	bonus_venit = 0;
 }
 
-Oras::Oras(const char* nume,int nr_locuitori,int venit_mediu,int bonus_venit):Localitate(nume,nr_locuitori,venit_mediu)
+Oras:: Oras(int venit_m,int bonus_venit,int nrloc,const char* Nume) : Localitate(Nume,nrloc,venit_m)
 {
-	this->bonus_venit=bonus_venit;
-	
-	
+	this->bonus_venit = bonus_venit;
+}
+
+int Oras::getBonus()
+{
+	return bonus_venit;
+}
+
+int Oras::getVenit()
+{
+	return venit_mediu + bonus_venit;
 }
 
 void Oras::afisare()
 {
 	Localitate::afisare();
-	cout<<"venit bonus: "<<bonus_venit<<endl;
-	
-	
-}
-
-int Oras::getVenit()
-{
-	int sum;
-	sum=Localitate::venit_mediu +bonus_venit;
-	cout<<"Venit oras: "<<sum<<endl;
-	
+	cout<<"Bonus venit: "<<bonus_venit<<endl;
 }
