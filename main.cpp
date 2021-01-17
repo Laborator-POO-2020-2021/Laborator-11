@@ -1,113 +1,96 @@
+#include "municipiu.hpp"
+#include "capitala.hpp"
 #include "tara.hpp"
-
-
 
 int main()
 {
-	//Capitala obj("flamanda",60,90,100,"FLAMANZENI");
-	//obj.afisare();
-	Localitate**v=new Localitate*[5];
-	v[0]=new Localitate("Buzau",4000,1500);
-	v[1]=new Oras("Brasov",400,500,3000);
-	v[2]=new Municipiu("Sibiu",400,500,400,"Flamanda");
-	v[3]=new Capitala("Sibiu",400,500,300,"Flamanzeni");
-	v[4]=NULL;
-	Tara*vector=new Tara[5];
-	vector[0]=Tara(v);
-	vector[0].afisare();
-//cout<<vector[0].getVenit();
-cout<<vector[0].getLocuitori();
-	
-	Localitate**v1=new Localitate*[5];
-	v1[0]=new Localitate("localitate",4000,1500);
-	v1[1]=new Oras("oras",500,600,3000);
-	v1[2]=new Municipiu("municipiu",700,800,900,"Flamanda1");
-	v1[3]=new Capitala("cpaitala",100,200,300,"Flamanzeni1");
-	v1[4]=NULL;
-	vector[1]=Tara(v1);
-	
-		Localitate**v2=new Localitate*[5];
-	v2[0]=new Localitate("localitate1",1000,2500);
-	v2[1]=new Oras("oras1",100,200,4000);
-	v2[2]=new Municipiu("municipiu1",800,900,100,"Flamanda2");
-	v2[3]=new Capitala("cpaitala1",300,400,500,"Flamanzeni2");
-	v2[4]=NULL;
-	vector[2]=Tara(v2);
-	
-		Localitate**v3=new Localitate*[5];
-	v3[0]=new Localitate("localitate2",2000,3500);
-	v3[1]=new Oras("oras2",200,300,5000);
-	v3[2]=new Municipiu("municipiu2",900,1000,1100,"Flamanda3");
-	v3[3]=new Capitala("cpaitala2",3000,4000,5000,"Flamanzeni3");
-	v3[4]=NULL;
-	vector[3]=Tara(v3);
-	
-		Localitate**v4=new Localitate*[5];
-	v4[0]=new Localitate("localitate3",30000,3700);
-	v4[1]=new Oras("oras3",100,700,8000);
-	v4[2]=new Municipiu("municipiu3",1000,1100,1200,"Flamanda4");
-	v4[3]=new Capitala("cpaitala3",4000,5000,6000,"Flamanzeni4");
-	v4[4]=NULL;
-	vector[4]=Tara(v4);
-	
-		cout<<endl;
-		cout<<"===================================afisare=======================================";
-		cout<<endl;	
-		for(int i=0;i<5;i++)
-	{
-			cout<<"========"<<i<<"==============="<<endl;
-		vector[i].afisare();}
-	
+    Tara **obj;
+    obj = new Tara*[5];
 
-	
-	
-	for(int i=0;i<4;i++)
-		for(int j=i+1;j<5;j++)
-		{
-			if(vector[i].getLocuitori()>vector[j].getLocuitori())
-			{
-				Tara aux;
-				aux=vector[i];
-				vector[i]=vector[j];
-				vector[j]=aux;
-				
-			}
-			
-			
-		}
-		
-		cout<<"=============================================================afisare dupa sortare in functie de nr locuitori========================================================";
-		for(int i=0;i<5;i++)
-	{
-			cout<<"========"<<i<<"==============="<<endl;
-		vector[i].afisare();
-		cout<<endl;
-		}
-		
-			for(int i=0;i<4;i++)
-		for(int j=i+1;j<5;j++)
-		{
-			if(vector[i].getVenit()>vector[j].getVenit())
-			{
-				Tara aux;
-				aux=vector[i];
-				vector[i]=vector[j];
-				vector[j]=aux;
-				
-			}}
-			
-		
-			cout<<"=============================================================afisare dupa sortare in functie de venit========================================================";
-		for(int i=0;i<5;i++)
-	{
-			cout<<"========"<<i<<"==============="<<endl;
-		vector[i].afisare();
-		cout<<endl;
-		}
-		
-		
-		
-		delete[] vector;
-		
-	return 0;
+    Localitate **loc;
+    loc = new Localitate*[4];
+
+    loc[0] = new Localitate("Marasesti", 10000, 1500);
+    loc[1] = new Oras(1000, "Panciu", 7600, 1800);
+    loc[2] = new Municipiu("Moldova", 1200, "Focsani", 79000, 1800);
+    loc[3] = new Capitala("Romania", 1500, "Bucuresti", 1880000, 2500);
+
+    obj[0] = new Tara(loc);
+
+    loc = new Localitate*[4];
+
+    loc[0] = new Localitate("Localitate 1", 1, 25);
+    loc[1] = new Oras(1000, "Oras 1", 4, 48);
+    loc[2] = new Municipiu("Regiune 1", 1200, "Municipiu 1", 2, 12);
+    loc[3] = new Capitala("Tara 1", 1500, "Capitala 1", 5, 20);
+
+    obj[1] = new Tara(loc);
+
+    loc = new Localitate*[4];
+
+    loc[0] = new Localitate("Localitate 2", 1, 121);
+    loc[1] = new Oras(1000, "Oras 2", 2, 81);
+    loc[2] = new Municipiu("Regiune 2", 1200, "Municipiu 2", 1, 100);
+    loc[3] = new Capitala("Tara 2", 1500, "Capitala 2", 1, 169);
+
+    obj[2] = new Tara(loc);
+
+    loc = new Localitate*[4];
+
+    loc[0] = new Localitate("Localitate 3", 0, 5);
+    loc[1] = new Oras(1000, "Oras 3", 0, 9);
+    loc[2] = new Municipiu("Regiune 3", 1200, "Municipiu 3", 1, 14);
+    loc[3] = new Capitala("Tara 3", 1500, "Capitala 3", 0, 22);
+
+    obj[3] = new Tara(loc);
+
+    loc = new Localitate*[4];
+
+    loc[0] = new Localitate("Localitate 4", 4, 1624);
+    loc[1] = new Oras(1000, "Oras 4", 5, 2205);
+    loc[2] = new Municipiu("Regiune 4", 1200, "Municipiu 4", 5, 1898);
+    loc[3] = new Capitala("Tara 4", 1500, "Capitala 4", 2, 2002);
+
+    obj[4] = new Tara(loc);
+
+    /*for(int i = 0; i < 5; i++)
+    {
+        cout << "TARA " << i + 1 << endl;
+        obj[i]->afisare();
+        cout << endl;
+    }*/
+
+    cout << "SORTARE DUPA NUMARUL DE LOCUITORI\n" << endl;
+    for(int i = 0; i < 4; i++)
+        for(int j = i+1; j < 5; j++)
+            if(obj[i]->getNr_locuitori() > obj[j]->getNr_locuitori())
+            {
+                Tara *aux = obj[i];
+                obj[i] = obj[j];
+                obj[j] = aux;
+            }
+    for(int i = 0; i < 5; i++)
+    {
+        cout << "Tara " << i + 1 << "-------" << endl;
+        obj[i]->afisare();
+    }
+
+    cout << "\nSORTARE DUPA VENITUL MEDIU\n" << endl;
+    for(int i = 0; i < 4; i++)
+        for(int j = i+1; j < 5; j++)
+            if(obj[i]->getVenit_mediu() > obj[j]->getVenit_mediu())
+            {
+                Tara *aux = obj[i];
+                obj[i] = obj[j];
+                obj[j] = aux;
+            }
+    for(int i = 0; i < 5; i++)
+    {
+        cout << "Tara " << i + 1 << "-------" << endl;
+        obj[i]->afisare();
+    }
+
+    delete[] loc;
+
+    return 0;
 }

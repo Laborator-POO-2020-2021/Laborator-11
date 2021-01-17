@@ -3,13 +3,15 @@
 
 #include "localitate.hpp"
 
-class Oras : public Localitate {
- int bonus_venit; //venitul unui oras este venitul localitatii + bonus_venit.
+class Oras : public Localitate
+{
+    int bonus_venit;
 
 public:
-	Oras();
-	Oras(const char*,int,int  ,int );
-	int getVenit();
-	void afisare();
+    Oras();
+    Oras(int, const char*, int, int);
+
+    void afisare();
 };
+
 #endif
