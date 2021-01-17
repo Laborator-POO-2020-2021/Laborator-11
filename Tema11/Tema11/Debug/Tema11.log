@@ -1,0 +1,16 @@
+﻿  Capitala.cpp
+C:\Users\crist\Desktop\All\Facultate\AN 2\POO\Teme\Tema 11\Tema11\Tema11\Capitala.h(13,1): warning C4250: 'Capitala': inherits 'Oras::Oras::getVenit' via dominance
+C:\Users\crist\Desktop\All\Facultate\AN 2\POO\Teme\Tema 11\Tema11\Tema11\Oras.h(13): message : see declaration of 'Oras::getVenit'
+  Localitate.cpp
+  Municipiu.cpp
+C:\Users\crist\Desktop\All\Facultate\AN 2\POO\Teme\Tema 11\Tema11\Tema11\Municipiu.h(13,1): warning C4250: 'Municipiu': inherits 'Oras::Oras::getVenit' via dominance
+C:\Users\crist\Desktop\All\Facultate\AN 2\POO\Teme\Tema 11\Tema11\Tema11\Oras.h(13): message : see declaration of 'Oras::getVenit'
+  Oras.cpp
+  Source.cpp
+C:\Users\crist\Desktop\All\Facultate\AN 2\POO\Teme\Tema 11\Tema11\Tema11\Municipiu.h(13,1): warning C4250: 'Municipiu': inherits 'Oras::Oras::getVenit' via dominance
+C:\Users\crist\Desktop\All\Facultate\AN 2\POO\Teme\Tema 11\Tema11\Tema11\Oras.h(13): message : see declaration of 'Oras::getVenit'
+C:\Users\crist\Desktop\All\Facultate\AN 2\POO\Teme\Tema 11\Tema11\Tema11\Capitala.h(13,1): warning C4250: 'Capitala': inherits 'Oras::Oras::getVenit' via dominance
+C:\Users\crist\Desktop\All\Facultate\AN 2\POO\Teme\Tema 11\Tema11\Tema11\Oras.h(13): message : see declaration of 'Oras::getVenit'
+  Tara.cpp
+  Generating Code...
+  Tema11.vcxproj -> C:\Users\crist\Desktop\All\Facultate\AN 2\POO\Teme\Tema 11\Tema11\Debug\Tema11.exe
