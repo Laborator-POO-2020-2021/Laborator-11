@@ -49,11 +49,6 @@ void Tara::afisare()
         i++;
     }
     cout << endl << endl;
-    /*for (int i=0; v[i]!=NULL; i++)
-    {
-        venit = v[i]->getVenit() + venit;
-    }
-    return venit;*/
 }
 
 Tara& Tara::operator=(const Tara &obj)
