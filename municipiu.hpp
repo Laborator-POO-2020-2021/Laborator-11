@@ -5,7 +5,6 @@
 
 class Municipiu : public Oras
 {
-protected:
     char *regiune;  
 public:
     Municipiu();

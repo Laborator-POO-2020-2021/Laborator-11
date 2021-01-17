@@ -8,7 +8,6 @@ using namespace std;
 
 class Localitate 
 {
-protected:
     char *nume;
     int nr_locuitori;
     int venit_mediu;
@@ -20,7 +19,7 @@ public:
 	char* getNume();
 	int getNrLocuitori();
 	int getVenitMediu();
-	void afisare();
+	virtual void afisare();
     ~Localitate();
     
 };

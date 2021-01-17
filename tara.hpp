@@ -5,7 +5,6 @@
 
 class Tara 
 {
-protected:
     Localitate **v; 
 public:
     Tara();

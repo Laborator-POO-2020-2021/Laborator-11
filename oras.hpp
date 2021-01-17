@@ -5,7 +5,6 @@
 
 class Oras : public Localitate
 {
-protected:
     int bonus_venit; 
 public:
     Oras();

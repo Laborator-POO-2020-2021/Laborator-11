@@ -5,7 +5,6 @@
 
 class Capitala : public Oras
 {
-protected:
     char *tara;
 public:
     Capitala();
