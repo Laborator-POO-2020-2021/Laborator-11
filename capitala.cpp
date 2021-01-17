@@ -18,4 +18,5 @@ Capitala::~Capitala()
 void Capitala:: afis()
 {
   cout << "Tara: " << this->tara << endl;
+  Oras::afis();
 }

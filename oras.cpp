@@ -9,4 +9,5 @@ Oras::~Oras(){};
 void Oras::afis()
 {
   cout << "Bonus venit: " << bonus_venit << endl;
+  Localitate::afis();
 }

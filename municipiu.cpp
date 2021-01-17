@@ -23,4 +23,5 @@ Municipiu::~Municipiu()
 void Municipiu:: afis()
 {
   cout << "Regiune: " << this->regiune << endl;
+  Oras::afis();
 }
