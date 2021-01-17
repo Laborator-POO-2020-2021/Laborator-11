@@ -103,6 +103,20 @@ int main()
         else cout<<"pentru a-"<<i+1<<"-a tara: "<<endl<<endl;
         vector[i].afisare();
     }
+     for(int i=0;i<4;i++)
+    {
+        delete v[i];
+        delete v1[i];
+        delete v2[i];
+        delete v3[i];
+        delete v4[i];
+    }
+    delete []v;
+    delete[]v1;
+    delete[]v2;
+    delete[]v3;
+    delete[]v4;
+    delete[]vector;
 return 0;
 }
 
