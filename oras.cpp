@@ -25,7 +25,7 @@ Oras::~Oras()
 void Oras::afisare(ostream &out)
 {
     Localitate::afisare(out);
-    out<<"Bonus:"<<Oras::getBonus()<<endl;
+    out<<"Bonus:"<<Oras::getBonus()<<endl; //
 }
 
 ostream &operator<<(ostream &out, Oras &obj)

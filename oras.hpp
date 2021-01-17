@@ -11,7 +11,6 @@ class Oras: public Localitate{
     Oras();
     ~Oras();
     Oras(const char*, int, int, int);
-    //Oras(const Oras&);
     Oras& operator=(const Oras&);
     int getBonus();
     friend ostream& operator<<(ostream&, Oras&);

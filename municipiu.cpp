@@ -31,7 +31,7 @@ Municipiu::~Municipiu()
 void Municipiu::afisare(ostream &out)
 {
     Oras::afisare(out);
-    out <<"Regiune: "<<regiune<<endl;
+    out <<"Regiune: "<<regiune<<endl; //
 }
 
 ostream &operator<<(ostream &out, Municipiu &obj)

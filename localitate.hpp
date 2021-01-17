@@ -12,7 +12,6 @@ class Localitate {
         Localitate();
         ~Localitate();
         Localitate(const char*, int, int);
-        //Localitate(const Localitate&);
         Localitate& operator=(const Localitate&);
         char *getNume();
         int get_NrLoc();

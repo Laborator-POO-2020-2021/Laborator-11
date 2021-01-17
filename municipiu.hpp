@@ -11,7 +11,7 @@ class Municipiu: public Oras{
     Municipiu();
     ~Municipiu();
      Municipiu(const char *, int, int, int, const char *);
-    char* getRegiune();
+    char* getRegiune(); //
     Municipiu& operator=(const Municipiu&);
     
     friend ostream& operator<<(ostream&, Municipiu&);

@@ -39,7 +39,7 @@ int Localitate::getVenit_mediu()
 }
 void Localitate::afisare(ostream &out) 
 {
-    out<<"Nume:"<<nume<<" Nr.Loc: "<<nr_locuitori<<" Venit: "<<venit_mediu<<endl;
+    out<<"Nume:"<<nume<<" Nr.Loc: "<<nr_locuitori<<" Venit: "<<venit_mediu<<endl; //
 }
 
 ostream &operator<<(ostream &out, Localitate &obj)

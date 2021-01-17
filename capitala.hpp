@@ -11,7 +11,7 @@ class Capitala : public Oras
     public:
     Capitala();
     ~Capitala();
-    Capitala(const char *, int, int, int, const char *);
+    Capitala(const char *, int, int, int, const char *); //
     char* getTara();
     Capitala &operator=(const Capitala &);
 

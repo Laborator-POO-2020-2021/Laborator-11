@@ -90,7 +90,7 @@ int main()
 	 	  
 	 }
 	 
-	cout<<"Sortare in ordine crescatoare dupa venit mediu:"<<endl;
+	cout<<"Sortare in ordine crescatoare dupa venit mediu: "<<endl;
 	for(int i=0; i<5; i++)
 	 {
 	 	cout<<"---- Tara Nr. "<<i<<" -----"<<endl<< endl;

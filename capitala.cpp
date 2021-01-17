@@ -11,7 +11,7 @@ Capitala::Capitala(const char *nume, int locuitori, int venit, int extra, const 
 }
 Capitala& Capitala::operator=(const Capitala & obj)
 {
-    Localitate::operator=(obj);
+    Localitate::operator=(obj); 
     Oras::operator=(obj);
     if (tara != NULL)
         delete[] tara;
@@ -30,7 +30,7 @@ Capitala::~Capitala()
 
 void Capitala::afisare(ostream &out)
 {
-    Oras::afisare(out);
+    Oras::afisare(out); //
     out <<" Tara: "<<tara;
 }
 ostream &operator<<(ostream &out, Capitala &obj)

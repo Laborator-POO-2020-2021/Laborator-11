@@ -25,7 +25,7 @@ int Tara::Venit()
 {
     int suma =0;
     for(int i=0; i<4; i++)
-        suma = suma + v[i]->getVenit_mediu();
+        suma = suma + v[i]->getVenit_mediu(); //
     return suma;
 }
 int Tara::Locuitori()

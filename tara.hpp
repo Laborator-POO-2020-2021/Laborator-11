@@ -10,7 +10,7 @@ protected:
 public:
         Tara();
         ~Tara();
-        Tara(Localitate **);
+        Tara(Localitate **); //
 
         void afisare(ostream &);
         friend ostream &operator<<(ostream&, Tara&);
