@@ -72,5 +72,12 @@ int main()
 	for (int i = 0; i < 5; i++)
 		a[i] -> afisare();
 		
+	delete []a;
+	delete []v1;
+	delete []v2;
+	delete []v3;
+	delete []v4;
+	delete []v5;
+	
 	return 0;
 }

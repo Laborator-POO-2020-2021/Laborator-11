@@ -24,8 +24,6 @@ int Tara::NrLocuitori()
 	for (int i = 0; i < 3; i++)
 		total = total + v[i] -> getLocuitori();
 	
-	//cout << total;
-	
 	return total;
 }	
 
@@ -37,17 +35,4 @@ int Tara::getVenitTotal()
 		total = total + v[i] -> getVenit();	
 }	
 
-Tara& Tara::operator=(const Tara& obj)
-{
-	if( v != NULL )
-		delete []v;
-		
-	this -> v = new Localitate*[3];
-	for(int i = 0; i < 3; i++)
-	{
-		this->v[i] = obj.v[i];
-	}
-	
-	return (*this);
-}
 

@@ -12,7 +12,6 @@ public:
 	virtual void afisare();
 	virtual int getLocuitori();
 	virtual int getVenit();
-	~Oras();
 };
 
 #endif

@@ -32,9 +32,6 @@ int Localitate::getVenit()
 
 Localitate& Localitate::operator=(const Localitate& obj)
 {
-	//Proprietar::operator=(obj);
-	//(Proprietar&) *this = (Proprietar&) obj;
-	//Masina::operator=(obj);
 	if (nume != NULL)
 		delete []nume;
 	this->nume = new char[strlen(obj.nume) + 1];

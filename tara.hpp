@@ -10,7 +10,6 @@ public:
 	void virtual afisare();
 	int NrLocuitori();
 	virtual int getVenitTotal();
-	Tara &operator = (const Tara &obj);
 };
 
 #endif

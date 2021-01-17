@@ -26,7 +26,3 @@ int Oras::getVenit()
 	return (this -> venit_mediu + this -> bonus_venit);
 }
 
-Oras::~Oras()
-{
-	
-}
