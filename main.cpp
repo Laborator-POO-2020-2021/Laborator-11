@@ -95,5 +95,12 @@ int main()
         cout << endl<<endl;
     }
 
+    delete []tari;
+    delete []v_1;
+    delete []v_2;
+    delete []v_3;
+    delete []v_4;
+    delete []v_5;
+
     return 0;
 }
