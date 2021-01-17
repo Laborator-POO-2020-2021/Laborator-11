@@ -56,6 +56,13 @@ int main ()
 
     for (int i = 0; i < 5; i++)
         cout << tari[i] << endl;
+    
+    delete []v1;
+    delete []v2;
+    delete []v3;
+    delete []v4;
+    delete []v5;
+    delete []tari;
 
 }
 
