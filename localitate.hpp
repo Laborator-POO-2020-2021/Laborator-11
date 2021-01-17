@@ -15,6 +15,6 @@ public:
     char *getNume();
     int getNumarLocuitori();
     int getVenit();
-    void afisare();
+    virtual void afisare();
 };
 #endif

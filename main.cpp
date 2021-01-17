@@ -30,8 +30,8 @@ int main()
 	vectorLocalitati2 = new Localitate *[5];
 	vectorLocalitati2[0] = new Localitate("Plodiv", 10, 100);
 	vectorLocalitati2[1] = new Oras("Nesebar", 20, 200, 200);
-	vectorLocalitati2[2] = new Municipiu("Varna", 30, 300, 300, "Ardeal");
-	vectorLocalitati2[3] = new Capitala("Sofia", 90, 1000, 8000, "Romania");
+	vectorLocalitati2[2] = new Municipiu("Varna", 30, 300, 300, "Litoral");
+	vectorLocalitati2[3] = new Capitala("Sofia", 90, 1000, 8000, "Bulgaria");
 	vectorLocalitati2[4] = NULL;
 	vectorTari[1] = new Tara(vectorLocalitati2);
 	// Vector 3 - Tara 3; - Vatican
