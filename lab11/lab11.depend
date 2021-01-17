@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1610895969 source:c:\users\gabi\desktop\lab_11\lab11\problema_clasa_baza_tufisi_ionut_322ab.cpp
+	"Problema_header_baza_Tufisi_Ionut_322AB.hpp"
+
+1610896031 c:\users\gabi\desktop\lab_11\lab11\problema_header_baza_tufisi_ionut_322ab.hpp
+	<iostream>
+	<cstring>
+
+1610899909 source:c:\users\gabi\desktop\lab_11\lab11\problema_clasa_capitala_tufisi_ionut_322ab.cpp
+	"Problema_header_capitala_Tufisi_Ionut_322AB.hpp"
+
+1610908836 c:\users\gabi\desktop\lab_11\lab11\problema_header_capitala_tufisi_ionut_322ab.hpp
+	"Problema_header_oras_Tufisi_Ionut_322AB.hpp"
+
+1610899970 c:\users\gabi\desktop\lab_11\lab11\problema_header_oras_tufisi_ionut_322ab.hpp
+	"Problema_header_localitate_Tufisi_Ionut_322AB.hpp"
+
+1610908726 c:\users\gabi\desktop\lab_11\lab11\problema_header_localitate_tufisi_ionut_322ab.hpp
+	"Problema_header_baza_Tufisi_Ionut_322AB.hpp"
+
+1610908177 source:c:\users\gabi\desktop\lab_11\lab11\problema_clasa_localitate_tufisi_ionut_322ab.cpp
+	"Problema_header_localitate_Tufisi_Ionut_322AB.hpp"
+
+1610900070 source:c:\users\gabi\desktop\lab_11\lab11\problema_clasa_municipiu_tufisi_ionut_322ab.cpp
+	"Problema_header_municipiu_Tufisi_Ionut_322AB.hpp"
+
+1610908836 c:\users\gabi\desktop\lab_11\lab11\problema_header_municipiu_tufisi_ionut_322ab.hpp
+	"Problema_header_oras_Tufisi_Ionut_322AB.hpp"
+
+1610900175 source:c:\users\gabi\desktop\lab_11\lab11\problema_clasa_oras_tufisi_ionut_322ab.cpp
+	"Problema_header_oras_Tufisi_Ionut_322AB.hpp"
+
+1610908299 source:c:\users\gabi\desktop\lab_11\lab11\problema_clasa_tara_tufisi_ionut_322ab.cpp
+	"Problema_header_tara_Tufisi_Ionut_322AB.hpp"
+	"Problema_header_localitate_Tufisi_Ionut_322AB.hpp"
+
+1610908262 c:\users\gabi\desktop\lab_11\lab11\problema_header_tara_tufisi_ionut_322ab.hpp
+	"Problema_header_baza_Tufisi_Ionut_322AB.hpp"
+	"Problema_header_localitate_Tufisi_Ionut_322AB.hpp"
+
+1610908531 source:c:\users\gabi\desktop\lab_11\lab11\problema_main_tufisi_ionut_322ab.cpp
+	"Problema_header_capitala_Tufisi_Ionut_322AB.hpp"
+	"Problema_header_localitate_Tufisi_Ionut_322AB.hpp"
+	"Problema_header_municipiu_Tufisi_Ionut_322AB.hpp"
+	"Problema_header_oras_Tufisi_Ionut_322AB.hpp"
+	"Problema_header_tara_Tufisi_Ionut_322AB.hpp"
+
