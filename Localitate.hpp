@@ -1,6 +1,7 @@
 #ifndef LOCALITATE_HPP
 #define LOCALITATE_HPP
 
+
 #include <iostream>
 #include <string.h>
 #include <typeinfo>
@@ -18,7 +19,7 @@ public:
 	int getNrLoc();
 	int getVenit();
 	int getVenit1();
-	void afisare();
+	virtual void afisare();
 };
 
 #endif

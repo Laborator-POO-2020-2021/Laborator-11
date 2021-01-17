@@ -10,10 +10,8 @@ Municipiu::Municipiu(const char* regiune, int bonus_venit, const char* nume, int
 }
 Municipiu::~Municipiu(){
 }
-char* Municipiu::getRegiune(){
-	return regiune;
-}
 void Municipiu::afisare(){
 	cout<<"Regiune: "<<regiune<<endl;
+	
 	Oras::afisare();
 }

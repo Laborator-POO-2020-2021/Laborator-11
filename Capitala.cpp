@@ -11,9 +11,6 @@ Capitala::Capitala(const char* tara, int bonus_venit, const char* nume, int nr_l
 }
 Capitala::~Capitala(){
 }
-char* Capitala::getTara(){
-	return tara;
-}
 void Capitala::afisare(){
 	
 	cout<<"Tara: "<<tara<<endl;

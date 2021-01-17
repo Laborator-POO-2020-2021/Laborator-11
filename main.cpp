@@ -87,4 +87,11 @@ int main(){
 		t[i]->afisare();
 	}
 	
+	delete []t;
+	delete []a1;
+	delete []a2;
+	delete []a3;
+	delete []a4;
+	delete []a5;
+	
 }

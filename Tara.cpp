@@ -32,7 +32,7 @@ float Tara::getVenit(){
 		aux = v[nr_loc];
 	}
 	for(int i=0;i<nr_loc;i++)
-		venit = venit + ((Oras*)v[i])->getVenit();
+		venit = venit + v[i]->getVenit();
 	return venit/(float)nr_loc;
 	
 }
