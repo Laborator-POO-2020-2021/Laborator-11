@@ -93,7 +93,6 @@ int main()
                     aux = v_tari[i];
                     v_tari[i] = v_tari[j];
                     v_tari[j] = aux;
-                    cout << "Da";
                 }
             }
     }
