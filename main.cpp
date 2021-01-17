@@ -87,7 +87,6 @@ int main()
         }
     }
 
-
     cout<<"\n========= Afisare tari ordonate dupa venitul mediu=========\n\n";
     for(int i = 0; i < 5; i++) {
         tari[i]->afisare();
