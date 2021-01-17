@@ -1,0 +1,43 @@
+# Project: Dumitrescu_Catalin-Ionut_342B1
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = Localitate.o Oras.o Municipiu.o Capitala.o Tara.o main.o
+LINKOBJ  = Localitate.o Oras.o Municipiu.o Capitala.o Tara.o main.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = Dumitrescu_Catalin-Ionut_342B1.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+Localitate.o: Localitate.cpp
+	$(CPP) -c Localitate.cpp -o Localitate.o $(CXXFLAGS)
+
+Oras.o: Oras.cpp
+	$(CPP) -c Oras.cpp -o Oras.o $(CXXFLAGS)
+
+Municipiu.o: Municipiu.cpp
+	$(CPP) -c Municipiu.cpp -o Municipiu.o $(CXXFLAGS)
+
+Capitala.o: Capitala.cpp
+	$(CPP) -c Capitala.cpp -o Capitala.o $(CXXFLAGS)
+
+Tara.o: Tara.cpp
+	$(CPP) -c Tara.cpp -o Tara.o $(CXXFLAGS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
