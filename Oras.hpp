@@ -3,9 +3,16 @@
 
 #include "Localitate.hpp"
 
-class Oras
+class Oras: public Localitate
 {
+protected:
     int bonus_venit; //venitul unui oras este venitul localitatii + bonus_venit.
+    
+public:
+	Oras();
+	Oras(const char*, int, int, int);
+	
+	void afisare();
 };
 
 #endif

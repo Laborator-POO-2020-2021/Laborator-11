@@ -7,9 +7,17 @@ using namespace std;
 
 class Localitate 
 {
+protected:
     char *nume;
     int nr_locuitori;
     int venit_mediu;
+    
+public:
+	Localitate();
+	Localitate(const char*, int, int);
+	~Localitate();
+	
+	virtual void afisare();
 };
 
 #endif
