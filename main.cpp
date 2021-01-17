@@ -1,9 +1,10 @@
 #include "Tara.hpp"
 
-void afisareDetaliiTara(Tara& tara)
+//Afisare detalii pt o tara
+void afisareDetaliiTara(Tara& tara, const char* nume_tara)
 {
 	cout << "------------------------------" << endl;
-    cout << "Tara: Romania" << endl;
+    cout << "Tara: " << nume_tara << endl;
     cout << "------------------------------" << endl;	
 	tara.afisare();
 	cout << "------------------------------" << endl;
@@ -12,6 +13,33 @@ void afisareDetaliiTara(Tara& tara)
     cout << "------------------------------" << endl;
 }
 
+//Sortare descrescatoare
+void sortareTariNrLocuitori(Tara *tari, int dim)
+{
+	for(int i = 0; i < dim; i++)
+		for(int j = i; j < dim; j++)
+			if(tari[i].getNrLocuitori() < tari[j].getNrLocuitori())
+			{
+				Tara aux = tari[i];
+				tari[i] = tari[j];
+				tari[j] = aux;
+			}
+}
+
+//Sortare descrescatoare
+void sortareTariVenitMediu(Tara *tari, int dim)
+{
+	for(int i = 0; i < dim; i++)
+		for(int j = i; j < dim; j++)
+			if(tari[i].getVenitMediu() < tari[j].getVenitMediu())
+			{
+				Tara aux = tari[i];
+				tari[i] = tari[j];
+				tari[j] = aux;
+			}
+}
+
+//Eliberare memorie pentru localitatile dintr-o tara
 void eliberareMemorieLocalitati(Localitate **&localitati)
 {
 	for(int i = 0; localitati[i] != NULL; i++)
@@ -66,16 +94,51 @@ int main()
 	localitati_eg[0] = new Capitala("Cairo", 1200, 1300, 900, "Egypt");
 	localitati_eg[1] = NULL;
 
-	Tara Egypt(localitati_eg);
+	Tara Egipt(localitati_eg);
 
 
-	Tara tari[5] = {Egypt, Anglia, Romania, Israel, Germania};
+	Tara tari[5] = {Egipt, Anglia, Romania, Israel, Germania};
 
-	//Testare metode
-	afisareDetaliiTara(tari[2]);
+	//Testare metode si afisare tari
+	afisareDetaliiTara(tari[0], "Egipt");
+	cout << endl << endl;
+	afisareDetaliiTara(tari[1], "Anglia");
+	cout << endl << endl;
+	afisareDetaliiTara(tari[2], "Romania");
+	cout << endl << endl;
+	afisareDetaliiTara(tari[3], "Israel");
+	cout << endl << endl;
+	afisareDetaliiTara(tari[4], "Germania");
+	cout << endl << endl;
+	
+	//Afisare tari in functie de nr de locuitori
+	cout << "**********************************************" << endl;	
+	cout << "Afisare tari in functie de nr de locuitori" << endl;
+	cout << "**********************************************" << endl;
+	sortareTariNrLocuitori(tari, 5);
+	for(int i = 0; i < 5; i++)
+	{
+		afisareDetaliiTara(tari[i], "Tara");
+		cout << endl << endl;
+	}
+	
+	//Afisare tari in functie de venitul mediu
+	cout << "**********************************************" << endl;	
+	cout << "Afisare tari in functie de venitul mediu" << endl;
+	cout << "**********************************************" << endl;
+	sortareTariVenitMediu(tari, 5);
+	for(int i = 0; i < 5; i++)
+	{
+		afisareDetaliiTara(tari[i], "Tara");
+		cout << endl << endl;
+	}
 	
 	//Eliberare memorie
 	eliberareMemorieLocalitati(localitati_ro);
+	eliberareMemorieLocalitati(localitati_en);
+	eliberareMemorieLocalitati(localitati_de);
+	eliberareMemorieLocalitati(localitati_il);
+	eliberareMemorieLocalitati(localitati_eg);
 	
 	return 0;
 }

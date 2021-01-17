@@ -33,6 +33,7 @@
 
 # Dev-C++ Project
 *.dev
+*.layout
 
 # Makefile on Windows
 *.win
