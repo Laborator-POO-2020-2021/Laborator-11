@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+rm -rf arhive
+mkdir arhive
+
+for branch in $(git branch -r); do
+  mkdir arhive/${branch:7}
+  echo ${branch:7}
+  git archive --format zip --output arhive/${branch:7}/${branch:7}.zip $branch
+  unzip arhive/${branch:7}/${branch:7}.zip -d arhive/${branch:7}/
+  rm -rf arhive/${branch:7}/${branch:7}.zip
+done
+
